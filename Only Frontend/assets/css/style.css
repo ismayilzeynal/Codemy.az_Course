@@ -1,50 +1,222 @@
 .col-12 {
-  width: calc(100% / 12 * 12);
+  width: 100%;
 }
-
 .col-11 {
-  width: calc(100% / 12 * 11);
+  width: 91.6666666667%;
 }
-
 .col-10 {
-  width: calc(100% / 12 * 10);
+  width: 83.3333333333%;
 }
-
 .col-9 {
-  width: calc(100% / 12 * 9);
+  width: 75%;
 }
-
 .col-8 {
-  width: calc(100% / 12 * 8);
+  width: 66.6666666667%;
 }
-
 .col-7 {
-  width: calc(100% / 12 * 7);
+  width: 58.3333333333%;
 }
-
 .col-6 {
-  width: calc(100% / 12 * 6);
+  width: 50%;
 }
-
 .col-5 {
-  width: calc(100% / 12 * 5);
+  width: 41.6666666667%;
 }
-
 .col-4 {
-  width: calc(100% / 12 * 4);
+  width: 33.3333333333%;
 }
-
 .col-3 {
-  width: calc(100% / 12 * 3);
+  width: 25%;
 }
-
 .col-2 {
-  width: calc(100% / 12 * 2);
+  width: 16.6666666667%;
 }
-
 .col-1 {
-  width: calc(100% / 12 * 1);
+  width: 8.3333333333%;
 }
 
 /* ---------------------------------------------- */
+/* ------------ Reset START -------------- */
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+head,
+body,
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+ul,
+ol,
+li,
+nav,
+header,
+footer,
+section,
+article,
+aside,
+main,
+span,
+table,
+tr,
+td,
+th,
+tbody,
+thead,
+tfoot,
+form,
+input,
+label,
+button,
+textarea,
+select,
+option,
+iframe,
+script,
+style,
+meta,
+title {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #18181B;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ------------ Reset END -------------- */
+/* ------------ Necessary Slasses START -------------- */
+.btn-success {
+  background-color: #58248C;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.btn-success:hover {
+  background-color: #491e74;
+}
+
+.success {
+  color: #58248C;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.success:hover {
+  color: #491e74;
+}
+
+/* ------------ Necessary Classes END -------------- */
+/* ------------ Sections Basics START -------------- */
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+section .container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ------------ Sections Basics END -------------- */
 /* ---------------------------------------------- */
+/* ------------ Header START -------------- */
+header {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+header nav {
+  width: 60%;
+  display: flex;
+}
+header nav .logo-part {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+header nav .logo-part img {
+  width: 40px;
+  margin-right: 10px;
+}
+header nav .logo-part p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #18181B;
+}
+header nav .nav-links {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+}
+header nav .nav-links li {
+  padding: 6px 18px;
+  border: 0px;
+}
+header nav .nav-links * {
+  font-weight: 600;
+  color: #18181B;
+}
+header .nav-operations {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .nav-operations #nav-search {
+  display: flex;
+  align-items: center;
+  padding: 6px 9px;
+  position: relative;
+}
+header .nav-operations #nav-search i {
+  position: absolute;
+  left: 15px;
+  font-size: 13px;
+  color: #64748B;
+}
+header .nav-operations #nav-search input {
+  padding: 3px 0 3px 30px;
+  outline: none;
+  border: 1px solid rgba(100, 116, 139, 0.4274509804);
+  font-weight: 400;
+  color: #58248C;
+}
+header .nav-operations #nav-search input::-moz-placeholder {
+  color: #64748B;
+}
+header .nav-operations #nav-search input::placeholder {
+  color: #64748B;
+}
+header .nav-operations .sign-components {
+  padding-left: 25px;
+}
+header .nav-operations .sign-components .login {
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* ------------ Header END -------------- */

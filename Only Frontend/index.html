@@ -1,21 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codemy</title>
-    <link rel="stylesheet" href="./assets/css/sass/style.css"> 
-    
+    <link rel="icon" type="image/png" href="./assets/img/logos/codemyLogo-removed.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <a href="./index.html">
+                <div class="logo-part">
+                    <img src="./assets/img/logos/codemyLogo.svg" alt="logo">
+                    <p>Codemy</p>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <ul>
+                    <li class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Kurslar
+                    </li>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li class="dropdown-item" href="#">Ödənişli Kurslar</li>
+                        <li class="dropdown-item" href="#">Qısa dərslər</li>
+                    </ul>
+                </ul>
+
+                <ul>
+                    <li class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Əyləncə
+                    </li>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <li class="dropdown-item" href="#">Tədbirlər</li>
+                        <li class="dropdown-item" href="#">Müsabiqələr</li>
+                        <li class="dropdown-item" href="#">Oyunlar</li>
+                    </ul>
+                </ul>
+
+                <li><a href="#">Müəllimlər</a></li>
+                <li><a href="#">Haqqımızda</a></li>
+                <li><a href="#">Əlaqə</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-operations">
+            <form id="nav-search">
+                <input type="search" required placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+
+            <div class="sign-components">
+                <a href="#" class="login success">
+                    Login
+                </a>
+                <a href="#" class="btn btn-success signup">
+                    Create an Account
+                </a>
+            </div>
+        </div>
+    </header>
 
 
 
 
 
 
+
+
+
+    <!-- external scripts START -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- external scripts END -->
+
+
+    <!-- my scripts START -->
     <script src="./assets/js/index.js"></script>
+    <!-- my scripts END -->
 </body>
+
 </html>

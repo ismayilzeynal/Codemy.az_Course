@@ -1,6 +1,58 @@
+/* ------------ Reset START -------------- */
 * {
     font-family: $base-font;
+    font-weight: $base-font-weight;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+head,
+body,
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+ul,
+ol,
+li,
+nav,
+header,
+footer,
+section,
+article,
+aside,
+main,
+span,
+table,
+tr,
+td,
+th,
+tbody,
+thead,
+tfoot,
+form,
+input,
+label,
+button,
+textarea,
+select,
+option,
+iframe,
+script,
+style,
+meta,
+title {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -11,14 +63,34 @@ a {
 ul {
     list-style-type: none;
 }
+/* ------------ Reset END -------------- */
 
-body {
-    margin: 0;
-    padding: 0;
+
+/* ------------ Necessary Slasses START -------------- */
+.btn-success{
+    background-color: #58248C;
+    font-weight: 500;
+    border-radius: 4px;
+    &:hover{
+        background-color: #491e74;
+    }
+}
+
+.success{
+    color: #58248C;
+    font-weight: 500;
+    border-radius: 4px;
+    &:hover{
+        color: #491e74;
+    }
 }
 
 
-// I will change here
+/* ------------ Necessary Classes END -------------- */
+
+
+
+/* ------------ Sections Basics START -------------- */
 section {
     width: 100%;
     display: flex;
@@ -32,3 +104,4 @@ section {
         flex-wrap: wrap;
     }
 }
+/* ------------ Sections Basics END -------------- */
