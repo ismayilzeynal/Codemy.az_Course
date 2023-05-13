@@ -313,7 +313,7 @@ header .burger-nav {
     border-radius: 5px;
     margin: 3px 0;
   }
-  header .burger-nav .burger-menu li a:hover {
+  header .burger-nav .burger-menu li:hover a {
     background: linear-gradient(99.26deg, #3D31D0 -2.58%, #DD2A2A 102.54%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;

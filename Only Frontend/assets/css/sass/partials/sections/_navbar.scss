@@ -206,7 +206,7 @@ header {
                     border-radius: 5px;
                     margin: 3px 0;
 
-                    a:hover {
+                    &:hover a{
                         background: $gradient-blue-red;
                         -webkit-text-fill-color: transparent;
                         -webkit-background-clip: text;
