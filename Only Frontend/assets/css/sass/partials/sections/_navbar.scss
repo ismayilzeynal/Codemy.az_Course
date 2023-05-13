@@ -1,5 +1,6 @@
 /* ------------ Header START -------------- */
 header {
+    box-shadow: $dark-grey 0px 1px 10px -5px;
     width: 100%;
     padding: 15px 20px;
     display: flex;
@@ -73,17 +74,20 @@ header {
 
             i {
                 position: absolute;
-                left: 15px;
+                left: 20px;
                 font-size: 13px;
                 color: $purple-tiny;
             }
 
             input {
-                padding: 3px 0 3px 30px;
+                padding: 3px 3px 3px 35px;
                 outline: none;
                 border: 1px solid $purple-tiny-half;
                 font-weight: 400;
                 color: $purple;
+                border-radius: 20px;
+                width: 200px;
+                font-size: calc(1rem - 2px);
 
                 &::placeholder {
                     color: $purple-tiny;
@@ -128,6 +132,7 @@ header {
 
 @media only screen and (max-width: 1201px) {
     header {
+        box-shadow: $dark-grey 0px 1px 10px -5px;
         padding: 5px;
 
         nav {
@@ -195,7 +200,7 @@ header {
                 top: 0;
                 left: 0;
                 background-color: $purple-tiny;
-                padding: 10px 0 50px 10px;
+                padding: 10px 0 100px 10px;
                 display: none;
 
                 li,
@@ -239,6 +244,20 @@ header {
                     &.rotate::after {
                         transform: rotate(90deg) translate(100%, -8px);
                         top: 0;
+                    }
+                }
+
+                .sign-components
+                {
+                    width: 100%;
+                    margin-top: 30px;
+
+                    .signup{
+                        position: absolute;
+                        bottom: 25px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        box-shadow: 0px 2px 6px $grey-white-half;
                     }
                 }
             }

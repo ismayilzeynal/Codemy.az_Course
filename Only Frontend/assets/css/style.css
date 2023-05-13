@@ -108,8 +108,12 @@ ul, li {
   background-color: #58248C;
   font-weight: 500;
   border-radius: 4px;
+  border: none;
 }
 .btn-success:hover {
+  background-color: #491e74;
+}
+.btn-success:focus {
   background-color: #491e74;
 }
 
@@ -141,6 +145,7 @@ section .container {
 /* ---------------------------------------------- */
 /* ------------ Header START -------------- */
 header {
+  box-shadow: rgb(91, 91, 91) 0px 1px 10px -5px;
   width: 100%;
   padding: 15px 20px;
   display: flex;
@@ -203,16 +208,19 @@ header .nav-operations #nav-search {
 }
 header .nav-operations #nav-search i {
   position: absolute;
-  left: 15px;
+  left: 20px;
   font-size: 13px;
   color: #64748B;
 }
 header .nav-operations #nav-search input {
-  padding: 3px 0 3px 30px;
+  padding: 3px 3px 3px 35px;
   outline: none;
   border: 1px solid rgba(100, 116, 139, 0.4274509804);
   font-weight: 400;
   color: #58248C;
+  border-radius: 20px;
+  width: 200px;
+  font-size: calc(1rem - 2px);
 }
 header .nav-operations #nav-search input::-moz-placeholder {
   color: #64748B;
@@ -245,6 +253,7 @@ header .burger-nav {
 }
 @media only screen and (max-width: 1201px) {
   header {
+    box-shadow: rgb(91, 91, 91) 0px 1px 10px -5px;
     padding: 5px;
   }
   header nav a .logo-part img {
@@ -302,7 +311,7 @@ header .burger-nav {
     top: 0;
     left: 0;
     background-color: #64748B;
-    padding: 10px 0 50px 10px;
+    padding: 10px 0 100px 10px;
     display: none;
   }
   header .burger-nav .burger-menu li,
@@ -340,6 +349,17 @@ header .burger-nav {
   header .burger-nav .burger-menu .parent.rotate::after {
     transform: rotate(90deg) translate(100%, -8px);
     top: 0;
+  }
+  header .burger-nav .burger-menu .sign-components {
+    width: 100%;
+    margin-top: 30px;
+  }
+  header .burger-nav .burger-menu .sign-components .signup {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 2px 6px rgba(238, 238, 238, 0.404);
   }
 }
 @media only screen and (max-width: 401px) {

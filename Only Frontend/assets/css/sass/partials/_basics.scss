@@ -71,7 +71,11 @@ ul,li {
     background-color: #58248C;
     font-weight: 500;
     border-radius: 4px;
+    border: none;
     &:hover{
+        background-color: #491e74;
+    }
+    &:focus{
         background-color: #491e74;
     }
 }
