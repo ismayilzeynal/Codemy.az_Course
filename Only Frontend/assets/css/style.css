@@ -98,7 +98,7 @@ a {
   color: #18181B;
 }
 
-ul {
+ul, li {
   list-style-type: none;
 }
 
@@ -171,6 +171,16 @@ header nav .nav-links {
   align-items: center;
   margin-left: 30px;
 }
+header nav .nav-links li:hover {
+  background: linear-gradient(91.79deg, #3D31D0 0.76%, #BF49BB 105.57%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+header nav .nav-links ul li:hover {
+  background: linear-gradient(91.79deg, #3D31D0 0.76%, #BF49BB 105.57%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 header nav .nav-links li {
   padding: 6px 18px;
   border: 0px;
@@ -218,5 +228,81 @@ header .nav-operations .sign-components .login {
   font-weight: 600;
   font-size: 16px;
 }
+header .burger-nav {
+  display: none;
+}
 
+@media only screen and (max-width: 1381px) {
+  header nav .nav-links {
+    margin-left: 0px;
+  }
+  header nav .logo-part p {
+    display: none;
+  }
+  .nav-operations .sign-components .login {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1201px) {
+  header nav .nav-links {
+    display: none;
+  }
+  header .nav-operations {
+    display: none;
+  }
+  header .burger-nav {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header .burger-nav .fa-bars-staggered {
+    cursor: pointer;
+    padding: 8px 7px 8px 8px;
+    border-radius: 50%;
+    background: rgb(149, 149, 149);
+    background-color: rgb(149, 149, 149);
+    color: #FFF;
+    transition: background-color 0.25s;
+  }
+  header .burger-nav .fa-bars-staggered:hover {
+    background-color: rgb(91, 91, 91);
+  }
+  header .burger-nav .burger-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    padding-bottom: 50px;
+  }
+  header .burger-nav .burger-menu li,
+  header .burger-nav .burger-menu li a {
+    font-weight: 600;
+  }
+  header .burger-nav .burger-menu li {
+    width: 70%;
+    padding: 5px 0 5px 10px;
+    background-color: rgb(6, 94, 94);
+    border-radius: 5px;
+    margin: 3px 0;
+  }
+  header .burger-nav .burger-menu .child {
+    margin-left: 60px;
+  }
+  header .burger-nav .burger-menu .parent {
+    position: relative;
+  }
+  header .burger-nav .burger-menu .parent::after {
+    position: absolute;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-size: 14px;
+    top: 50%;
+    transform: translate(8px, -50%);
+  }
+}
 /* ------------ Header END -------------- */

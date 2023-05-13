@@ -33,6 +33,19 @@ header {
             align-items: center;
             margin-left: 30px;
 
+
+            li:hover {
+                background: $gradient-blue-purple;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+
+            ul li:hover {
+                background: $gradient-blue-purple;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+
             li {
                 padding: 6px 18px;
                 border: 0px;
@@ -44,12 +57,6 @@ header {
                 color: $dark-color;
             }
         }
-
-
-
-
-
-
     }
 
     .nav-operations {
@@ -58,34 +65,36 @@ header {
         justify-content: flex-end;
         align-items: center;
 
-        #nav-search{
+        #nav-search {
             display: flex;
             align-items: center;
             padding: 6px 9px;
             position: relative;
 
-            i{
+            i {
                 position: absolute;
                 left: 15px;
                 font-size: 13px;
                 color: $purple-tiny;
             }
-            input{
+
+            input {
                 padding: 3px 0 3px 30px;
                 outline: none;
                 border: 1px solid $purple-tiny-half;
                 font-weight: 400;
                 color: $purple;
 
-                &::placeholder{
+                &::placeholder {
                     color: $purple-tiny;
                 }
             }
         }
 
-        .sign-components{
+        .sign-components {
             padding-left: 25px;
-            .login{
+
+            .login {
                 margin-right: 20px;
                 font-weight: 600;
                 font-size: $base-font-size;
@@ -93,6 +102,110 @@ header {
         }
     }
 
+
+    .burger-nav {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1381px) {
+    header nav {
+        .nav-links {
+            margin-left: 0px;
+        }
+
+        .logo-part p {
+            display: none;
+        }
+    }
+
+    .nav-operations .sign-components .login {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1201px) {
+    header {
+        nav {
+            .nav-links {
+                display: none;
+            }
+        }
+
+        .nav-operations {
+            display: none;
+        }
+
+        .burger-nav {
+            width: 70%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+
+
+            .fa-bars-staggered {
+                cursor: pointer;
+                padding: 8px 7px 8px 8px;
+                border-radius: 50%;
+                background: $grey;
+                background-color: $grey;
+                color: #FFF;
+                transition: background-color 0.25s;
+
+                &:hover {
+                    background-color: $dark-grey;
+                }
+            }
+
+            .burger-menu {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                position: fixed;
+                top: 0;
+                left: 0;
+                background-color: aqua;
+                padding-bottom: 50px;
+
+                li,
+                li a {
+                    font-weight: 600;
+                }
+
+                li {
+                    width: 70%;
+                    padding: 5px 0 5px 10px;
+                    background-color: rgb(6, 94, 94);
+                    border-radius: 5px;
+                    margin: 3px 0;
+                }
+
+                .child {
+                    // display: none;
+                    margin-left: 60px;
+                }
+
+                .parent {
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        content: "\f105";
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 14px;
+                        top: 50%;
+                        transform: translate(8px,-50%);
+                    }
+                }
+
+            }
+        }
+
+    }
 }
 
 
@@ -135,19 +248,4 @@ header {
 
 
 
-
-
 /* ------------ Header END -------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
