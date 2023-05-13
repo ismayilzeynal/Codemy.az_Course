@@ -12,7 +12,11 @@ $(".burger-nav .fa-solid").click(function(){
     var $this = $(this);
     $this.toggle();
     var isBarsStaggered = $this.hasClass('fa-bars-staggered');
-    $(".fa-circle-xmark").toggle(isBarsStaggered);
+    $(".fa-xmark").toggle(isBarsStaggered);
     $(".fa-bars-staggered").toggle(!isBarsStaggered);
     $(".burger-menu").css("display", isBarsStaggered ? "flex" : "none");
 });
+
+// Navbar END
+
+

@@ -277,19 +277,22 @@ header .burger-nav {
   header .burger-nav .fa-bars-staggered:hover {
     background-color: rgb(91, 91, 91);
   }
-  header .burger-nav .fa-circle-xmark {
+  header .burger-nav .fa-xmark {
     z-index: 1;
     cursor: pointer;
     border-radius: 50%;
-    font-size: 40px;
-    color: rgb(234, 149, 13);
-    background-color: #FFF;
-    transition: color 0.2s;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(99.26deg, #3D31D0 -2.58%, #DD2A2A 102.54%);
+    padding: 5px 9px;
+    border-radius: 50%;
     display: none;
+    transition: transform 0.4s;
   }
-  header .burger-nav .fa-circle-xmark:hover {
-    color: rgb(217, 89, 30);
-    transform: scale(1.1);
+  header .burger-nav .fa-xmark:hover {
+    background: linear-gradient(99.26deg, #3D31D0 -2.58%, rgb(155, 29, 29) 102.54%);
+    color: rgb(149, 149, 149);
+    transform: scale(1.05);
   }
   header .burger-nav .burger-menu {
     width: 100%;
@@ -340,9 +343,8 @@ header .burger-nav {
   }
 }
 @media only screen and (max-width: 401px) {
-  header .burger-nav .fa-circle-xmark {
-    margin-right: 5px;
-    font-size: 30px;
+  header .burger-nav .fa-xmark {
+    font-size: 25px;
   }
 }
 /* ------------ Header END -------------- */

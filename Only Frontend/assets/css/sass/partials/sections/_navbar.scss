@@ -129,13 +129,15 @@ header {
 @media only screen and (max-width: 1201px) {
     header {
         padding: 5px;
+
         nav {
-            a .logo-part img{
+            a .logo-part img {
                 padding: 5px;
                 background-color: white;
                 border-radius: 50%;
                 width: $nav-logo-size*1.4;
             }
+
             .nav-links {
                 display: none;
             }
@@ -166,20 +168,22 @@ header {
                 }
             }
 
-            .fa-circle-xmark{
+            .fa-xmark {
                 z-index: 1;
                 cursor: pointer;
                 border-radius: 50%;
-                font-size: 40px;
-                color: rgb(234, 149, 13);
-                background-color: #FFF;
-                transition: color 0.2s;
+                font-size: 30px;
+                color: white;
+                background: $gradient-blue-red;
+                padding: 5px 9px;
+                border-radius: 50%;
                 display: none;
-
+                transition: transform 0.4s;
 
                 &:hover {
-                    color: rgb(217, 89, 30);
-                    transform: scale(1.1);
+                    background: $gradient-blue-red-change;
+                    color: $grey;
+                    transform: scale(1.05);
                 }
             }
 
@@ -206,7 +210,7 @@ header {
                     border-radius: 5px;
                     margin: 3px 0;
 
-                    &:hover a{
+                    &:hover a {
                         background: $gradient-blue-red;
                         -webkit-text-fill-color: transparent;
                         -webkit-background-clip: text;
@@ -243,12 +247,9 @@ header {
 }
 
 
-@media only screen and (max-width: 401px) 
-{
-    header .burger-nav .fa-circle-xmark
-    {
-        margin-right: 5px;
-        font-size: 30px;
+@media only screen and (max-width: 401px) {
+    header .burger-nav .fa-xmark {
+        font-size: 25px;
     }
 }
 
