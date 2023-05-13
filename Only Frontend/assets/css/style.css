@@ -244,6 +244,15 @@ header .burger-nav {
   }
 }
 @media only screen and (max-width: 1201px) {
+  header {
+    padding: 5px;
+  }
+  header nav a .logo-part img {
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    width: 56px;
+  }
   header nav .nav-links {
     display: none;
   }
@@ -260,24 +269,38 @@ header .burger-nav {
     cursor: pointer;
     padding: 8px 7px 8px 8px;
     border-radius: 50%;
-    background: rgb(149, 149, 149);
     background-color: rgb(149, 149, 149);
     color: #FFF;
     transition: background-color 0.25s;
+    font-size: 25px;
   }
   header .burger-nav .fa-bars-staggered:hover {
     background-color: rgb(91, 91, 91);
   }
+  header .burger-nav .fa-circle-xmark {
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 40px;
+    color: rgb(234, 149, 13);
+    background-color: #FFF;
+    transition: color 0.2s;
+    display: none;
+  }
+  header .burger-nav .fa-circle-xmark:hover {
+    color: rgb(217, 89, 30);
+    transform: scale(1.1);
+  }
   header .burger-nav .burger-menu {
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: aqua;
-    padding-bottom: 50px;
+    background-color: #64748B;
+    padding: 10px 0 50px 10px;
+    display: none;
   }
   header .burger-nav .burger-menu li,
   header .burger-nav .burger-menu li a {
@@ -286,12 +309,19 @@ header .burger-nav {
   header .burger-nav .burger-menu li {
     width: 70%;
     padding: 5px 0 5px 10px;
-    background-color: rgb(6, 94, 94);
+    background-color: rgb(238, 238, 238);
     border-radius: 5px;
     margin: 3px 0;
   }
+  header .burger-nav .burger-menu li a:hover {
+    background: linear-gradient(99.26deg, #3D31D0 -2.58%, #DD2A2A 102.54%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
   header .burger-nav .burger-menu .child {
+    display: none;
     margin-left: 60px;
+    font-size: calc(1rem - 1px);
   }
   header .burger-nav .burger-menu .parent {
     position: relative;
@@ -303,6 +333,16 @@ header .burger-nav {
     font-size: 14px;
     top: 50%;
     transform: translate(8px, -50%);
+  }
+  header .burger-nav .burger-menu .parent.rotate::after {
+    transform: rotate(90deg) translate(100%, -8px);
+    top: 0;
+  }
+}
+@media only screen and (max-width: 401px) {
+  header .burger-nav .fa-circle-xmark {
+    margin-right: 5px;
+    font-size: 30px;
   }
 }
 /* ------------ Header END -------------- */

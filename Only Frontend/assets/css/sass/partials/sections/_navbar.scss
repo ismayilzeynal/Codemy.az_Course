@@ -128,7 +128,14 @@ header {
 
 @media only screen and (max-width: 1201px) {
     header {
+        padding: 5px;
         nav {
+            a .logo-part img{
+                padding: 5px;
+                background-color: white;
+                border-radius: 50%;
+                width: $nav-logo-size*1.4;
+            }
             .nav-links {
                 display: none;
             }
@@ -145,31 +152,47 @@ header {
             align-items: center;
 
 
-
             .fa-bars-staggered {
                 cursor: pointer;
                 padding: 8px 7px 8px 8px;
                 border-radius: 50%;
-                background: $grey;
                 background-color: $grey;
                 color: #FFF;
                 transition: background-color 0.25s;
+                font-size: 25px;
 
                 &:hover {
                     background-color: $dark-grey;
                 }
             }
 
+            .fa-circle-xmark{
+                z-index: 1;
+                cursor: pointer;
+                border-radius: 50%;
+                font-size: 40px;
+                color: rgb(234, 149, 13);
+                background-color: #FFF;
+                transition: color 0.2s;
+                display: none;
+
+
+                &:hover {
+                    color: rgb(217, 89, 30);
+                    transform: scale(1.1);
+                }
+            }
+
             .burger-menu {
                 width: 100%;
                 display: flex;
-                justify-content: center;
                 flex-wrap: wrap;
                 position: fixed;
                 top: 0;
                 left: 0;
-                background-color: aqua;
-                padding-bottom: 50px;
+                background-color: $purple-tiny;
+                padding: 10px 0 50px 10px;
+                display: none;
 
                 li,
                 li a {
@@ -179,14 +202,21 @@ header {
                 li {
                     width: 70%;
                     padding: 5px 0 5px 10px;
-                    background-color: rgb(6, 94, 94);
+                    background-color: $grey-white;
                     border-radius: 5px;
                     margin: 3px 0;
+
+                    a:hover {
+                        background: $gradient-blue-red;
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+                    }
                 }
 
                 .child {
-                    // display: none;
+                    display: none;
                     margin-left: 60px;
+                    font-size: calc(1rem - 1px);
                 }
 
                 .parent {
@@ -198,18 +228,29 @@ header {
                         font-family: "Font Awesome 5 Free";
                         font-size: 14px;
                         top: 50%;
-                        transform: translate(8px,-50%);
+                        transform: translate(8px, -50%);
+
+                    }
+
+                    &.rotate::after {
+                        transform: rotate(90deg) translate(100%, -8px);
+                        top: 0;
                     }
                 }
-
             }
         }
-
     }
 }
 
 
-
+@media only screen and (max-width: 401px) 
+{
+    header .burger-nav .fa-circle-xmark
+    {
+        margin-right: 5px;
+        font-size: 30px;
+    }
+}
 
 
 
