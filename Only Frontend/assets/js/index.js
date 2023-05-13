@@ -1,25 +1,18 @@
 // Navbar START
-$("#parent-1").click(function(){
+
+$(".parent").click(function(){
     $(this).toggleClass("rotate");
-    $(".child-1").toggle();
-});
-
-$("#parent-2").click(function(){
-    $(this).toggleClass("rotate");
-    $(".child-2").toggle();
-});
-
-$(".fa-bars-staggered").click(function(){
-    $(this).toggle();
-    $(".fa-circle-xmark").toggle();
-    $(".burger-menu").css("display","flex");
-});
-
-$(".fa-circle-xmark").click(function(){
-    $(this).toggle();
-    $(".fa-bars-staggered").toggle();
-    $(".burger-menu").css("display","none");
+    let parentIdNumber= $(this).attr('id').split('-')[1];
+    let childrenClass = ".child-"+parentIdNumber;
+    $(childrenClass).toggle();
 });
 
 
-// Navbar END
+$(".burger-nav .fa-solid").click(function(){
+    var $this = $(this);
+    $this.toggle();
+    var isBarsStaggered = $this.hasClass('fa-bars-staggered');
+    $(".fa-circle-xmark").toggle(isBarsStaggered);
+    $(".fa-bars-staggered").toggle(!isBarsStaggered);
+    $(".burger-menu").css("display", isBarsStaggered ? "flex" : "none");
+});
