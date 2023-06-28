@@ -1,0 +1,41 @@
+#short-lessons-examples {
+    .card {
+        border: 0;
+        // margin-bottom: 20px;s
+
+        iframe {
+            border-radius: 10px;
+        }
+
+        .col-md-8 {
+
+            // display: flex;
+            // flex-wrap: wrap;
+            // align-items: flex-end;
+            .card-body {
+                padding-bottom: 0;
+
+                h5 {
+                    display: inline-block;
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    letter-spacing: -0.02em;
+                    color: #454C5B;
+                }
+
+                h6 {
+                    font-weight: 600;
+                    font-size: 0.75rem;
+                    color: #6941C6;
+                    margin-bottom: 15px;
+                }
+
+                .card-text {
+                    font-weight: 500;
+                    font-size: 0.9rem;
+                    color: #6B6B6B;
+                }
+            }
+        }
+    }
+}

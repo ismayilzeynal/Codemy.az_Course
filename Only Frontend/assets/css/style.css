@@ -126,13 +126,59 @@ ul, li {
   color: #491e74;
 }
 
+.line-between-sections {
+  justify-self: center;
+  content: "";
+  height: 3px;
+  width: 86%;
+  background-color: #E3E3E3;
+}
+
+.fa-linkedin-in, .fa-instagram, .fa-paper-plane, .fa-facebook-f, .fa-whatsapp {
+  border-radius: 100%;
+  color: white;
+  background-color: #1E293B;
+  font-size: 1rem;
+  padding: 13px 15px;
+  transition: all 0.3s;
+}
+
+.fa-linkedin-in:hover {
+  background-color: #0072b1;
+}
+
+.fa-instagram:hover {
+  background-color: #E4405F;
+}
+
+.fa-paper-plane:hover {
+  background-color: #0088cc;
+}
+
+.fa-facebook-f:hover {
+  background-color: #1877F2;
+}
+
+.fa-whatsapp:hover {
+  background-color: #0c7165;
+}
+
+@media only screen and (max-width: 769px) {
+  .fa-linkedin-in, .fa-instagram, .fa-paper-plane, .fa-facebook-f, .fa-whatsapp {
+    border-radius: 100%;
+    color: white;
+    background-color: #1E293B;
+    font-size: 0.7rem;
+    padding: 8px 10px;
+  }
+}
 /* ------------ Necessary Classes END -------------- */
 /* ------------ Sections Basics START -------------- */
 section {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 section .container {
   width: 80%;
@@ -297,6 +343,7 @@ header .burger-nav {
     border-radius: 50%;
     display: none;
     transition: transform 0.4s;
+    position: fixed;
   }
   header .burger-nav .fa-xmark:hover {
     background: linear-gradient(99.26deg, #3D31D0 -2.58%, rgb(155, 29, 29) 102.54%);
@@ -368,3 +415,430 @@ header .burger-nav {
   }
 }
 /* ------------ Header END -------------- */
+#course-examples {
+  padding-bottom: 40px;
+}
+#course-examples .container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#course-examples .container h5 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+#course-examples .container .course-card {
+  width: 30%;
+  margin-bottom: 25px;
+}
+#course-examples .container .course-card .card-body {
+  padding: 1rem 0;
+}
+#course-examples .container .course-card .card-body a h6 {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #6941C6;
+  width: auto;
+}
+#course-examples .container .course-card .card-body a h5 {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #101828;
+  width: auto;
+}
+#course-examples .container .course-card .card-body .card-title-direction {
+  display: flex;
+  justify-content: space-between;
+}
+#course-examples .container .course-card .card-body .card-title-direction i {
+  transform: rotate(-45deg);
+  padding: 0 10px 0 0;
+  align-self: center;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  z-index: -999;
+}
+#course-examples .container .course-card .card-body p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #667085;
+}
+#course-examples .container .course-card .card-body .btn-more {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #EEF4FF;
+  color: #3538CD;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 20px;
+  padding: 2px 10px;
+  border-radius: 16px;
+}
+
+@media only screen and (max-width: 1381px) {
+  #course-examples {
+    padding-bottom: 20px;
+  }
+  #course-examples .container h5 {
+    justify-self: center;
+  }
+  #course-examples .container .course-card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #course-examples .container {
+    justify-content: center;
+  }
+  #course-examples .container h5 {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  #course-examples .container .course-card {
+    width: 80%;
+  }
+  #course-examples .container .course-card .card-body .card-title-direction i {
+    font-size: 1.1rem;
+  }
+  #course-examples .container .course-card .card-body a h5 {
+    font-size: 1.25rem;
+  }
+  #course-examples .container .course-card .card-body a h6 {
+    font-size: 0.75rem;
+  }
+  #course-examples .container .course-card .card-body p {
+    font-size: 0.85rem;
+  }
+  #course-examples .container .course-card .card-body .btn-more {
+    font-size: 0.75rem;
+  }
+}
+#teacher-examples .container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#teacher-examples .container h5 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+#teacher-examples .container .teacher-card {
+  width: 30%;
+  margin-bottom: 25px;
+}
+#teacher-examples .container .teacher-card a img {
+  border-radius: 20px;
+}
+#teacher-examples .container .teacher-card .card-body {
+  padding: 1rem 0 1rem 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#teacher-examples .container .teacher-card .card-body a {
+  display: flex;
+  justify-content: center;
+}
+#teacher-examples .container .teacher-card .card-body a h6 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #170640;
+  width: auto;
+}
+#teacher-examples .container .teacher-card .card-body a h5 {
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #101828;
+  width: auto;
+}
+#teacher-examples .container .teacher-card .card-body .btn-more {
+  display: inline-block;
+  background-color: #EEF4FF;
+  color: #3538CD;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 20px;
+  padding: 2px 10px;
+  border-radius: 16px;
+}
+
+@media only screen and (max-width: 1381px) {
+  #teacher-examples .container h5 {
+    justify-self: center;
+  }
+  #teacher-examples .container .teacher-card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #teacher-examples {
+    padding-top: 40px;
+  }
+  #teacher-examples .container {
+    justify-content: center;
+  }
+  #teacher-examples .container h5 {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  #teacher-examples .container .teacher-card {
+    width: 80%;
+  }
+  #teacher-examples .container .teacher-card .card-body a h5 {
+    font-size: 1.25rem;
+  }
+  #teacher-examples .container .teacher-card .card-body a h6 {
+    font-size: 0.85rem;
+  }
+  #teacher-examples .container .teacher-card .card-body .btn-more {
+    font-size: 0.75rem;
+  }
+}
+#short-lessons-examples .card {
+  border: 0;
+}
+#short-lessons-examples .card iframe {
+  border-radius: 10px;
+}
+#short-lessons-examples .card .col-md-8 .card-body {
+  padding-bottom: 0;
+}
+#short-lessons-examples .card .col-md-8 .card-body h5 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  color: #454C5B;
+}
+#short-lessons-examples .card .col-md-8 .card-body h6 {
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #6941C6;
+  margin-bottom: 15px;
+}
+#short-lessons-examples .card .col-md-8 .card-body .card-text {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #6B6B6B;
+}
+
+.subscribe-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.subscribe-section .container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+  margin: 20px 0 50px 0;
+  background: linear-gradient(148deg, #3D31D0 0%, #DA4545 49.48%, #BF49BB 100%);
+  border-radius: 30px;
+}
+
+.content {
+  width: 360px;
+  height: 40px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.subscription {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.subscription .add-email {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+}
+
+.subscription .submit-email {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: calc(100% - 4px);
+  width: 100px;
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  margin: 2px;
+  padding: 0 20px;
+  cursor: pointer;
+  background: #58248C;
+  color: #FFFFFF;
+  transition: width 0.35s ease-in-out, background 0.35s ease-in-out;
+}
+
+.subscription.done .submit-email {
+  width: calc(100% - 4px);
+  background: #19871b;
+}
+
+.subscription .submit-email .before-submit,
+.subscription .submit-email .after-submit {
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+  transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out;
+}
+
+.subscription.done .submit-email .before-submit,
+.subscription:not(.done) .submit-email .after-submit {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.subscription .submit-email .after-submit {
+  transition-delay: 0.35s;
+}
+
+.subscription:not(.done) .submit-email .before-submit,
+.subscription.done .submit-email .after-submit {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1381px) {
+  .subscribe-section .container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .subscribe-section .container {
+    padding: 30px 10px;
+    margin: 0 0 40px 0;
+  }
+  .subscription .add-email {
+    padding: 0 10px;
+  }
+  .subscription .submit-email {
+    height: calc(100% - 4px);
+    width: 100px;
+    margin: 2px;
+    padding: 0 10px;
+  }
+  .subscription.done .submit-email {
+    width: calc(100% - 4px);
+    background: #19871b;
+  }
+  .subscription .submit-email .before-submit,
+  .subscription .submit-email .after-submit,
+  .subscription .add-email {
+    font-size: 0.7rem;
+  }
+}
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #0F172A;
+  padding: 15px 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-logo {
+  width: 15%;
+}
+footer .footer-logo a {
+  width: 100%;
+  display: flex;
+}
+footer .footer-logo a img {
+  width: 40px;
+  margin-right: 10px;
+}
+footer .footer-logo a h3 {
+  color: #FFF;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 3px;
+}
+footer .footer-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .footer-nav a {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+footer .footer-nav a:hover {
+  color: #b4b4b4;
+}
+footer .footer-social {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1201px) {
+  footer .footer-logo {
+    width: auto;
+  }
+  footer .footer-nav {
+    display: none;
+  }
+  footer .footer-social {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  footer {
+    width: 95%;
+    display: flex;
+    background-color: #0F172A;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .footer-logo {
+    width: 20%;
+  }
+  footer .footer-logo a {
+    width: 100%;
+    display: flex;
+  }
+  footer .footer-logo a img {
+    width: 30px;
+    margin-right: 8px;
+  }
+  footer .footer-logo a h3 {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 3px;
+  }
+  footer .footer-social {
+    width: 50%;
+  }
+}

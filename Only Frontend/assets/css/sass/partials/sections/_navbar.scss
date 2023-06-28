@@ -1,5 +1,6 @@
 /* ------------ Header START -------------- */
 header {
+    // z-index: 999;
     box-shadow: $dark-grey 0px 1px 10px -5px;
     width: 100%;
     padding: 15px 20px;
@@ -184,6 +185,7 @@ header {
                 border-radius: 50%;
                 display: none;
                 transition: transform 0.4s;
+                position: fixed;
 
                 &:hover {
                     background: $gradient-blue-red-change;

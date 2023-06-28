@@ -89,6 +89,48 @@ ul,li {
     }
 }
 
+.line-between-sections{
+    justify-self: center;
+    content: "";
+    height: 3px;
+    width: 86%;
+    background-color: #E3E3E3;
+}
+
+.fa-linkedin-in, .fa-instagram, .fa-paper-plane, .fa-facebook-f, .fa-whatsapp{
+    border-radius: 100%;
+    color: white;
+    background-color: #1E293B;
+    font-size: 1rem;
+    padding: 13px 15px;
+    transition: all 0.3s;
+}
+.fa-linkedin-in:hover{
+    background-color: #0072b1;
+}
+.fa-instagram:hover{
+    background-color: #E4405F;
+}
+.fa-paper-plane:hover{
+    background-color: #0088cc;
+}
+.fa-facebook-f:hover{
+    background-color: #1877F2;
+}
+.fa-whatsapp:hover{
+    background-color: #0c7165;
+}
+
+@media only screen and (max-width: 769px) {
+    .fa-linkedin-in, .fa-instagram, .fa-paper-plane, .fa-facebook-f, .fa-whatsapp{
+        border-radius: 100%;
+        color: white;
+        background-color: #1E293B;
+        font-size: 0.7rem;
+        padding: 8px 10px;
+    }
+}
+
 
 /* ------------ Necessary Classes END -------------- */
 
@@ -99,7 +141,7 @@ section {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 80px;
 
     .container {
         width: 80%;
