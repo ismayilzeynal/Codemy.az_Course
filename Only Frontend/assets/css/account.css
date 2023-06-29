@@ -419,12 +419,16 @@ header {
   background-color: white;
 }
 
+#login {
+  padding-top: 20px;
+}
+
 body {
   background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
 }
 
 .main {
-  width: 350px;
+  width: 450px;
   height: 540px;
   background: red;
   overflow: hidden;
@@ -468,6 +472,31 @@ label {
   font-size: 0.9rem;
 }
 
+.signup-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.label-signup {
+  width: 100%;
+  margin: 30px;
+}
+
+.new-inp-2 {
+  width: 45%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 18px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
 .new-bttn {
   width: 60%;
   height: 40px;
@@ -494,7 +523,7 @@ label {
   height: 460px;
   background: #eee;
   border-radius: 60%/10%;
-  transform: translateY(-180px);
+  transform: translateY(-140px);
   transition: 0.8s ease-in-out;
 }
 

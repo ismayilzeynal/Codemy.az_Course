@@ -16,6 +16,8 @@ $(".burger-nav .fa-solid").click(function () {
     $(".fa-bars-staggered").toggle(!isBarsStaggered);
     $(".burger-menu").css("display", isBarsStaggered ? "flex" : "none");
     $("#carouselExampleIndicators").css("display", isBarsStaggered ? "none" : "block");
+    $("#login").css("display", isBarsStaggered ? "none" : "flex");
+
 });
 
 // Navbar END
