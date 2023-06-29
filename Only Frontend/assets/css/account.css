@@ -117,6 +117,22 @@ ul, li {
   background-color: #491e74;
 }
 
+.btn-success-tiny {
+  background-color: #7F56D9;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+.btn-success-tiny:hover {
+  background-color: #58248C;
+  color: white;
+}
+.btn-success-tiny:focus {
+  background-color: #58248C;
+  color: white;
+}
+
 .success {
   color: #58248C;
   font-weight: 500;

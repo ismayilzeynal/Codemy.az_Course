@@ -39,3 +39,32 @@
         }
     }
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #short-lessons-examples {
+        .card {
+            margin-bottom: 25px !important;
+            .col-md-8 {
+                .card-body {
+                    padding: 8px 0 0 0;
+                    
+                    h5 {
+                        font-size: 1.3rem;
+                    }
+    
+                    h6 {
+                        font-size: 0.65rem;
+                        margin-bottom: 15px;
+                    }
+    
+                    .card-text {
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+}

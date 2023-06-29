@@ -1,0 +1,116 @@
+.page-head {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    div {
+        width: 51%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .head-title {
+        margin-bottom: 20px;
+
+        h2 {
+            color: #101828;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+            letter-spacing: -0.96px;
+        }
+    }
+
+    .head-desc {
+        margin-bottom: 40px;
+
+        h4 {
+            width: 80%;
+            color: #667085;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+
+    .head-search {
+        display: flex;
+        .head-search-box{
+            width: 60%;
+            display: flex;
+            justify-content: center;
+
+            input{
+                width: 400px;
+                border-radius: 8px;
+            }
+
+            button {
+                border-radius: 8px;
+                margin-left: 1rem;
+                padding: 12px 20px;
+            }
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 1201px) {
+    .page-head {
+        padding-top: 40px;
+        margin-bottom: 0;
+
+        div {
+            width: 80%;
+        }
+
+        .head-search {
+            .head-search-box{
+                width: 100%;
+            }
+        }
+
+        .head-desc {
+            h4 {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 401px) {
+    .page-head {
+        .head-title {
+            h2 {
+                font-size: 30px;
+            }
+        }
+
+        .head-desc {
+            h4 {
+                width: 100%;
+                font-size: 0.8rem;
+            }
+        }
+
+        .head-search {
+            .head-search-box{
+                input{
+                    width: 150px;
+                    font-size: 0.8rem;
+                }
+    
+                button {
+                    border-radius: 8px;
+                    margin-left: 1rem;
+                    padding: 8px 15px;
+                    font-size: 0.8rem;
+                }
+            }
+            
+        }
+    }
+}

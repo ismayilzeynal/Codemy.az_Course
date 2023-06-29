@@ -431,195 +431,89 @@ header .burger-nav {
   }
 }
 /* ------------ Header END -------------- */
-#course-examples {
-  padding-bottom: 40px;
-}
-#course-examples .container {
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-#course-examples .container h5 {
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 25px;
-  margin-bottom: 15px;
-}
-#course-examples .container .course-card {
-  width: 30%;
-  margin-bottom: 25px;
-}
-#course-examples .container .course-card .card-body {
-  padding: 1rem 0;
-}
-#course-examples .container .course-card .card-body a h6 {
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 20px;
-  color: #6941C6;
-  width: auto;
-}
-#course-examples .container .course-card .card-body a h5 {
-  display: inline-block;
-  margin-top: 10px;
-  font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 32px;
-  color: #101828;
-  width: auto;
-}
-#course-examples .container .course-card .card-body .card-title-direction {
+.page-head {
+  padding-top: 50px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
-#course-examples .container .course-card .card-body .card-title-direction i {
-  transform: rotate(-45deg);
-  padding: 0 10px 0 0;
-  align-self: center;
-  font-size: 1.25rem;
-  margin-bottom: 8px;
-  z-index: -999;
+.page-head div {
+  width: 51%;
+  display: flex;
+  justify-content: center;
 }
-#course-examples .container .course-card .card-body p {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 24px;
+.page-head .head-title {
+  margin-bottom: 20px;
+}
+.page-head .head-title h2 {
+  color: #101828;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.96px;
+}
+.page-head .head-desc {
+  margin-bottom: 40px;
+}
+.page-head .head-desc h4 {
+  width: 80%;
   color: #667085;
-}
-#course-examples .container .course-card .card-body .btn-more {
-  display: inline-block;
-  margin-top: 10px;
-  background-color: #EEF4FF;
-  color: #3538CD;
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 20px;
-  padding: 2px 10px;
-  border-radius: 16px;
-}
-
-@media only screen and (max-width: 1381px) {
-  #course-examples {
-    padding-bottom: 20px;
-  }
-  #course-examples .container h5 {
-    justify-self: center;
-  }
-  #course-examples .container .course-card {
-    width: 45%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #course-examples .container {
-    justify-content: center;
-  }
-  #course-examples .container h5 {
-    text-align: center;
-    font-size: 1.25rem;
-  }
-  #course-examples .container .course-card {
-    width: 80%;
-  }
-  #course-examples .container .course-card .card-body .card-title-direction i {
-    font-size: 1.1rem;
-  }
-  #course-examples .container .course-card .card-body a h5 {
-    font-size: 1.25rem;
-  }
-  #course-examples .container .course-card .card-body a h6 {
-    font-size: 0.75rem;
-  }
-  #course-examples .container .course-card .card-body p {
-    font-size: 0.85rem;
-  }
-  #course-examples .container .course-card .card-body .btn-more {
-    font-size: 0.75rem;
-  }
-}
-#teacher-examples .container {
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-#teacher-examples .container h5 {
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 25px;
-  margin-bottom: 15px;
-}
-#teacher-examples .container .teacher-card {
-  width: 30%;
-  margin-bottom: 25px;
-}
-#teacher-examples .container .teacher-card a img {
-  border-radius: 20px;
-}
-#teacher-examples .container .teacher-card .card-body {
-  padding: 1rem 0 1rem 10px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-#teacher-examples .container .teacher-card .card-body a {
-  display: flex;
-  justify-content: center;
-}
-#teacher-examples .container .teacher-card .card-body a h6 {
-  display: inline-block;
-  font-weight: 600;
+  text-align: center;
   font-size: 1rem;
-  line-height: 20px;
-  color: #170640;
-  width: auto;
+  font-weight: 400;
 }
-#teacher-examples .container .teacher-card .card-body a h5 {
-  display: inline-block;
-  margin-top: 5px;
-  font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 32px;
-  color: #101828;
-  width: auto;
+.page-head .head-search {
+  display: flex;
 }
-#teacher-examples .container .teacher-card .card-body .btn-more {
-  display: inline-block;
-  background-color: #EEF4FF;
-  color: #3538CD;
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 20px;
-  padding: 2px 10px;
-  border-radius: 16px;
+.page-head .head-search .head-search-box {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.page-head .head-search .head-search-box input {
+  width: 400px;
+  border-radius: 8px;
+}
+.page-head .head-search .head-search-box button {
+  border-radius: 8px;
+  margin-left: 1rem;
+  padding: 12px 20px;
 }
 
-@media only screen and (max-width: 1381px) {
-  #teacher-examples .container h5 {
-    justify-self: center;
-  }
-  #teacher-examples .container .teacher-card {
-    width: 45%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #teacher-examples {
+@media only screen and (max-width: 1201px) {
+  .page-head {
     padding-top: 40px;
+    margin-bottom: 0;
   }
-  #teacher-examples .container {
-    justify-content: center;
-  }
-  #teacher-examples .container h5 {
-    text-align: center;
-    font-size: 1.25rem;
-  }
-  #teacher-examples .container .teacher-card {
+  .page-head div {
     width: 80%;
   }
-  #teacher-examples .container .teacher-card .card-body a h5 {
-    font-size: 1.25rem;
+  .page-head .head-search .head-search-box {
+    width: 100%;
   }
-  #teacher-examples .container .teacher-card .card-body a h6 {
-    font-size: 0.85rem;
+  .page-head .head-desc h4 {
+    width: 80%;
   }
-  #teacher-examples .container .teacher-card .card-body .btn-more {
-    font-size: 0.75rem;
+}
+@media only screen and (max-width: 401px) {
+  .page-head .head-title h2 {
+    font-size: 30px;
+  }
+  .page-head .head-desc h4 {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .page-head .head-search .head-search-box input {
+    width: 150px;
+    font-size: 0.8rem;
+  }
+  .page-head .head-search .head-search-box button {
+    border-radius: 8px;
+    margin-left: 1rem;
+    padding: 8px 15px;
+    font-size: 0.8rem;
   }
 }
 #short-lessons-examples .card {
@@ -666,6 +560,105 @@ header .burger-nav {
   }
   #short-lessons-examples .card .col-md-8 .card-body .card-text {
     font-size: 0.75rem;
+  }
+}
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pagination .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination .container .previous a,
+.pagination .container .next a {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .container .previous a:hover,
+.pagination .container .next a:hover {
+  color: rgb(152, 75, 223);
+}
+.pagination .container .previous a p,
+.pagination .container .next a p {
+  margin: 0 10px;
+}
+.pagination .container .previous a i,
+.pagination .container .previous a p,
+.pagination .container .next a i,
+.pagination .container .next a p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.pagination .container .numbers {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.pagination .container .numbers ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .container .numbers ul li {
+  margin-right: 8px;
+  width: 40px;
+}
+.pagination .container .numbers ul li .page-link {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+}
+.pagination .container .numbers ul li .page-link:hover {
+  background-color: #eeebf5;
+  color: #7F56D9;
+}
+.pagination .container .numbers ul .disabled-pag a {
+  color: #667085;
+}
+.pagination .container .numbers ul .enabled-pag a {
+  background-color: #eeebf5;
+  color: #7F56D9;
+}
+
+@media only screen and (max-width: 700px) {
+  .pagination .container {
+    width: 95%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .pagination .container .previous a p,
+  .pagination .container .next a p {
+    margin: 0 10px;
+    display: none;
+  }
+  .pagination .container .previous a i,
+  .pagination .container .previous a p,
+  .pagination .container .next a i,
+  .pagination .container .next a p {
+    font-size: 1rem;
+  }
+  .pagination .container .numbers {
+    width: 60%;
+  }
+  .pagination .container .numbers ul {
+    width: 100%;
+  }
+  .pagination .container .numbers ul li {
+    margin-right: 8px;
+    width: 40px;
+  }
+  .pagination .container .numbers ul li .page-link {
+    font-size: 1rem;
   }
 }
 .subscribe-section {
