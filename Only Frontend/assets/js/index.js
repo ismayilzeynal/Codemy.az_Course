@@ -1,3 +1,8 @@
+$(document).ready(function() {
+
+
+
+
 // Navbar START
 
 $(".parent").click(function () {
@@ -134,3 +139,21 @@ function checkIfCorrectEmail(emailAdress) {
 // Login END
 
 
+// Compeitions START
+
+// $('.card .row .col-md-4 img').on('click', function(){
+//     console.log($(this).parent());
+// });
+
+$('.card .row .col-md-4 img').click(function(e) {
+    e.preventDefault(); 
+    var link = $(this).parent().next().find('a').attr('href');
+    window.open(link, '_blank');
+});
+
+// Compeitions END
+
+
+
+
+});
