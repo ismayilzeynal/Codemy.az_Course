@@ -153,7 +153,14 @@ $('.card .row .col-md-4 img').click(function(e) {
 
 // Compeitions END
 
-
-
-
 });
+
+// Teacher START
+// let newBorderBottomSize = $("#teacher-detail-image").height();
+// let newBorderLeftSize = $("#teacher-detail-image").width();
+
+// const triangleBack=$('.triangle-back');
+// triangleBack.css("border-bottom", newBorderBottomSize-50 + "px solid rgba(88, 36, 140, 0.50)");
+// triangleBack.css("border-left", newBorderLeftSize-50 + "px solid transparent");
+// console.log(newBorderBottomSize);
+// Teacher END

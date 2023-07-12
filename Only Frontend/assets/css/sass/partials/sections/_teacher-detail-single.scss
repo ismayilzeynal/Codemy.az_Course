@@ -101,12 +101,108 @@
                     }
                 }
             }
-
-
-
-
-            
         }
 
+        .col-7 {
+            display: flex;
+            justify-content: center;
+
+            .teacher-image-section {
+                width: 100%;
+                border-radius: 20px;
+                position: relative;
+
+                
+
+
+                img {
+                    width: 100%;
+                    max-height: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    z-index: 1;
+                }
+
+                .teacher-info {
+                    width: 50%;
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                    z-index: 2;
+                    background-color: rgba(88, 36, 140, 0.50);
+                    padding: 25px;
+                    border-radius: 50px;
+
+
+                    h3 {
+                        color: #FFF;
+                        font-size: 25px;
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        color: #FFF;
+                        font-size: 14px;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                    }
+
+
+                }
+
+            }
+
+        }
     }
 }
+
+
+.fa-linkedin-in,
+.fa-instagram,
+.fa-paper-plane,
+.fa-facebook-f,
+.fa-whatsapp,
+.fa-github {
+    font-size: 0.8rem;
+    padding: 7px 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .triangle-back {
+//     content: ' ';
+//     width: 0;
+//     // border-bottom: 500px solid rgba(88, 36, 140, 0.50);
+//     // border-left: 800px solid transparent;
+//     position: absolute;
+//     right: 0;
+//     bottom: 1px;
+//     z-index: 999;
+// }

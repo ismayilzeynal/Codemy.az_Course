@@ -113,7 +113,7 @@ ul,li {
     background-color: #E3E3E3;
 }
 
-.fa-linkedin-in, .fa-instagram, .fa-paper-plane, .fa-facebook-f, .fa-whatsapp{
+.fa-linkedin-in, .fa-instagram, .fa-paper-plane, .fa-facebook-f, .fa-whatsapp, .fa-github{
     border-radius: 100%;
     color: white;
     background-color: #1E293B;
@@ -135,6 +135,10 @@ ul,li {
 }
 .fa-whatsapp:hover{
     background-color: #0c7165;
+}
+
+.fa-github:hover{
+    background-color: black;
 }
 
 @media only screen and (max-width: 769px) {
