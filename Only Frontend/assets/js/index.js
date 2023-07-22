@@ -145,14 +145,46 @@ $(document).ready(function () {
 
 });
 
+// profil page sections width
 const iconSideWidth = $('.icon-side').width();
 let maxWidthP = 0;
-
 $('#profil .container-2 .profil-down .profil-about .info-sec p').each(function () {
     let newWidth = $(this).width();
     if (newWidth > maxWidthP) {
         maxWidthP = newWidth;
     }
 });
+$('#profil .container-2 .profil-down .profil-about').width(iconSideWidth + maxWidthP + 50);
 
-$('#profil .container-2 .profil-down .profil-about').width(iconSideWidth + maxWidthP + 50)
+
+
+
+
+
+
+// Document Scan START
+
+function onScanSuccess(qrCodeMessage) {
+    // document.getElementById("result").innerHTML =
+    //     '<span class="result">' + qrCodeMessage + "</span>";
+}
+function onScanError(errorMessage) {
+    console.log("error scan")
+}
+
+var html5QrCodeScanner = new Html5QrcodeScanner("reader", {
+    fps: 10,
+    qrbox: 250
+});
+html5QrCodeScanner.render(onScanSuccess, onScanError);
+
+// Document Scan END
+
+
+
+
+
+
+
+
+

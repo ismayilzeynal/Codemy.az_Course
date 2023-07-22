@@ -25,94 +25,132 @@
 </head>
 
 <body>
+    <main>
 
-    <!-- Header START -->
-    <header>
-        <nav>
-            <a href="./index.html">
-                <div class="logo-part">
-                    <img src="./assets/img/logos/codemyLogo.svg" alt="logo">
-                    <p>Codemy</p>
-                </div>
-            </a>
-            <ul class="nav-links">
-                <ul>
-                    <li class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
-                        Kurslar
-                    </li>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li class="dropdown-item" href="#">Ödənişli Kurslar</li>
-                        <li class="dropdown-item" href="#">Müəllimlər</li>
-                    </ul>
-                </ul>
-                <ul>
-                    <li class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
-                        Əyləncə
-                    </li>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                        <li class="dropdown-item" href="#">Tədbirlər</li>
-                        <li class="dropdown-item" href="#">Müsabiqələr</li>
-                        <li class="dropdown-item" href="#">Oyunlar</li>
-                    </ul>
-                </ul>
-                <li><a href="#">Müəllimlər</a></li>
-                <li><a href="#">Haqqımızda</a></li>
-                <li><a href="#">Əlaqə</a></li>
-            </ul>
-        </nav>
-
-        <div class="nav-operations">
-            <form id="nav-search">
-                <input type="search" required placeholder="Search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </form>
-            <div class="sign-components">
-                <a href="./login.html" class="login success">
-                    Login
+        <!-- Header START -->
+        <header>
+            <nav>
+                <a href="./index.html">
+                    <div class="logo-part">
+                        <img src="./assets/img/logos/codemyLogo.svg" alt="logo">
+                        <p>Codemy</p>
+                    </div>
                 </a>
-                <a href="./signup" class="btn btn-success signup">
-                    Create an Account
-                </a>
-            </div>
-        </div>
+                <ul class="nav-links">
+                    <ul>
+                        <li class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
+                            Kurslar
+                        </li>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li class="dropdown-item" href="#">Ödənişli Kurslar</li>
+                            <li class="dropdown-item" href="#">Müəllimlər</li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
+                            Əyləncə
+                        </li>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li class="dropdown-item" href="#">Tədbirlər</li>
+                            <li class="dropdown-item" href="#">Müsabiqələr</li>
+                            <li class="dropdown-item" href="#">Oyunlar</li>
+                        </ul>
+                    </ul>
+                    <li><a href="#">Müəllimlər</a></li>
+                    <li><a href="#">Haqqımızda</a></li>
+                    <li><a href="#">Əlaqə</a></li>
+                </ul>
+            </nav>
 
-        <div class="burger-nav">
-            <i class="fa-solid fa-bars-staggered"></i>
-            <!-- <i class="fa-solid fa-circle-xmark"></i> -->
-            <i class="fa-solid fa-xmark"></i>
-            <div class="burger-menu">
-                <li class="level-1 parent" id="parent-1"><a>Kurslar</a></li>
-                <li class="level-2 child child-1"><a href="#">Ödənişli Kurslar</a></li>
-                <li class="level-2 child child-1"><a href="#">Qısa dərslər</a></li>
-
-                <li class="level-1 parent" id="parent-2"><a>Əyləncə</a></li>
-                <li class="level-2 child child-2"><a href="#">Tədbirlər</a></li>
-                <li class="level-2 child child-2"><a href="#">Müsabiqələr</a></li>
-                <li class="level-2 child child-2"><a href="#">Oyunlar</a></li>
-
-                <li class="level-1"><a href="#">Müəllimlər</a></li>
-                <li class="level-1"><a href="#">Haqqımızda</a></li>
-                <li class="level-1"><a href="#">Əlaqə</a></li>
-
-
+            <div class="nav-operations">
+                <form id="nav-search">
+                    <input type="search" required placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
                 <div class="sign-components">
-                    <a href="#" class="btn btn-success signup">
-                        Login or Signup
+                    <a href="./login.html" class="login success">
+                        Login
+                    </a>
+                    <a href="./signup" class="btn btn-success signup">
+                        Create an Account
                     </a>
                 </div>
             </div>
-        </div>
-    </header>
-    <!-- Header END -->
+
+            <div class="burger-nav">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+                <i class="fa-solid fa-xmark"></i>
+                <div class="burger-menu">
+                    <li class="level-1 parent" id="parent-1"><a>Kurslar</a></li>
+                    <li class="level-2 child child-1"><a href="#">Ödənişli Kurslar</a></li>
+                    <li class="level-2 child child-1"><a href="#">Qısa dərslər</a></li>
+
+                    <li class="level-1 parent" id="parent-2"><a>Əyləncə</a></li>
+                    <li class="level-2 child child-2"><a href="#">Tədbirlər</a></li>
+                    <li class="level-2 child child-2"><a href="#">Müsabiqələr</a></li>
+                    <li class="level-2 child child-2"><a href="#">Oyunlar</a></li>
+
+                    <li class="level-1"><a href="#">Müəllimlər</a></li>
+                    <li class="level-1"><a href="#">Haqqımızda</a></li>
+                    <li class="level-1"><a href="#">Əlaqə</a></li>
 
 
-    
+                    <div class="sign-components">
+                        <a href="#" class="btn btn-success signup">
+                            Login or Signup
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header END -->
+
+
+
+        <section id="document-verify">
+            <div class="container-2">
+                <div id="check-document">
+                    <form class="manual-input" method="post">
+                        <input type="search" placeholder="ID daxil edin" class="id-search-input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="submit" class="btn btn-success-tiny" value="Axtar">
+                    </form>
+
+                    <p>Və ya</p>
+
+                    <form method="post" class="scan-input">
+                        <div class="row">
+                            <div id="reader"></div>
+                        </div>
+                        <input type="hidden" value="">
+                    </form>
+                </div>
+                <div id="result">
+                    <p id="result-success">Sənəd tapıldı</p>
+                    <!-- <p id="result-error">Sənəd tapılmadı, ID düzgün qeyd etdiyinizdən əmin olun</p> -->
+                    <ul class="results-list">
+                        <li><span>Ad, soyad:</span> İsmayıl Zeynalov</li>
+                        <li><span>Sənədin tipi:</span> Sertifikat</li>
+
+                        <h5>Sənəd üzərində xüsusi qeydlər</h5>
+                        <li><span>Kursun adı:</span> C++ və Alqoritm</li>
+                        <li><span>Problem yönümlü həll:</span> 99.8</li>
+                        <li><span>Mövzulararası ortlama:</span> 99.7</li>
+                        <li><span>Yekun layihəsi:</span> 93.7</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
 
 
     <!-- Footer START -->
-    <!-- <footer>
+    <footer>
         <div class="footer-logo">
             <a href="./index.html">
                 <img src="./assets/img/logos/codemyLogo-removed.png" alt="logo">
@@ -132,7 +170,7 @@
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-whatsapp"></i></a>
         </div>
-    </footer> -->
+    </footer>
 
     <!-- Footer END -->
 
@@ -143,6 +181,7 @@
 
 
     <!-- external scripts START -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -152,6 +191,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.2.0/html5-qrcode.min.js'></script>
+    <script src="./script.js"></script>
+
     <!-- external scripts END -->
 
 

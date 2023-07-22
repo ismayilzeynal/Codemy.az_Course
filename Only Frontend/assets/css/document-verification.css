@@ -435,6 +435,246 @@ header .burger-nav {
   }
 }
 /* ------------ Header END -------------- */
+#document-verify {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#document-verify .container-2 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#document-verify .container-2 #check-document {
+  width: 58%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#document-verify .container-2 #check-document .manual-input {
+  display: flex;
+  align-items: center;
+  padding: 6px 9px;
+  position: relative;
+}
+#document-verify .container-2 #check-document .manual-input i {
+  position: absolute;
+  left: 20px;
+  font-size: 13px;
+  color: #64748B;
+}
+#document-verify .container-2 #check-document .manual-input .id-search-input {
+  padding: 10px 10px 10px 35px;
+  outline: none;
+  border: 3px solid rgba(100, 116, 139, 0.4274509804);
+  font-weight: 400;
+  color: #58248C;
+  border-radius: 30px;
+  width: 500px;
+  font-size: calc(1rem - 2px);
+}
+#document-verify .container-2 #check-document .manual-input .id-search-input::-moz-placeholder {
+  color: #64748B;
+}
+#document-verify .container-2 #check-document .manual-input .id-search-input::placeholder {
+  color: #64748B;
+}
+#document-verify .container-2 #check-document .manual-input .btn {
+  margin-left: 20px;
+}
+#document-verify .container-2 #check-document p {
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  margin: 25px;
+  opacity: 0.75;
+}
+#document-verify .container-2 #check-document .scan-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#document-verify .container-2 #check-document .scan-input .row {
+  display: flex;
+}
+#document-verify .container-2 #check-document .scan-input .row #reader {
+  width: 400px;
+  border: 3px solid rgba(100, 116, 139, 0.4274509804) !important;
+}
+#document-verify .container-2 #check-document .scan-input .row #reader__scan_region {
+  background: white;
+}
+#document-verify .container-2 #check-document .scan-input .row #reader__dashboard_section_csr span {
+  margin-right: 0 !important;
+}
+#document-verify .container-2 #check-document .scan-input .row button {
+  padding: 4px 12px;
+  background-color: #58248C !important;
+  font-weight: 500 !important;
+  border-radius: 4px !important;
+  border: none !important;
+  color: white !important;
+  transition: all 0.4s !important;
+}
+#document-verify .container-2 #check-document .scan-input .row button:hover {
+  background-color: #8146bc !important;
+  scale: 1.1;
+  color: white !important;
+}
+#document-verify .container-2 #check-document .scan-input .row button:focus {
+  background-color: #8146bc !important;
+  color: white !important;
+}
+#document-verify .container-2 #check-document .scan-input .row #reader__dashboard_section_swaplink {
+  opacity: 0.6 !important;
+  text-decoration: none !important;
+  color: white !important;
+  font-weight: 500 !important;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 14px !important;
+  background-color: #DA4545;
+  border-radius: 5px;
+  padding: 2px 8px;
+  transition: 0.4s all !important;
+}
+#document-verify .container-2 #check-document .scan-input .row #reader__dashboard_section_swaplink:hover {
+  background-color: #983131;
+}
+#document-verify .container-2 #check-document .scan-input .row #reader__dashboard_section_fsr span {
+  display: none;
+}
+#document-verify .container-2 #result {
+  margin-top: 75px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#document-verify .container-2 #result p {
+  width: 350px;
+  font-weight: 700;
+  font-size: 30px;
+}
+#document-verify .container-2 #result #result-success {
+  color: rgb(0, 164, 0);
+}
+#document-verify .container-2 #result #result-error {
+  color: red;
+}
+#document-verify .container-2 #result .results-list {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#document-verify .container-2 #result .results-list li {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+}
+#document-verify .container-2 #result .results-list li span {
+  font-weight: 600;
+}
+#document-verify .container-2 #result .results-list h5 {
+  width: 100%;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #31169e;
+}
+
+@media only screen and (max-width: 1201px) {
+  #document-verify .container-2 {
+    width: 95%;
+  }
+  #document-verify .container-2 #check-document {
+    width: 100%;
+  }
+  #document-verify .container-2 #check-document .manual-input .id-search-input {
+    padding: 5px 5px 5px 35px;
+    border-radius: 20px;
+    width: 350px;
+  }
+  #document-verify .container-2 #check-document .manual-input .btn {
+    margin-left: 15px;
+  }
+  #document-verify .container-2 #check-document p {
+    font-size: 18px;
+    margin: 22px;
+  }
+  #document-verify .container-2 #check-document .scan-input .row #reader {
+    width: 300px;
+  }
+  #document-verify .container-2 #check-document .scan-input .row button {
+    padding: 3px 9px;
+  }
+  #document-verify .container-2 #check-document .scan-input .row #reader__dashboard_section_swaplink {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #document-verify .container-2 #result {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #document-verify .container-2 #result p {
+    width: 350px;
+    font-size: 30px;
+  }
+  #document-verify .container-2 #result .results-list {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 501px) {
+  #document-verify .container-2 #check-document .manual-input .id-search-input {
+    border-radius: 20px;
+    width: 200px;
+  }
+  #document-verify .container-2 #check-document p {
+    font-size: 17px;
+    margin: 20px;
+  }
+  #document-verify .container-2 #check-document .scan-input .row #reader {
+    width: 300px;
+  }
+  #document-verify .container-2 #result {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #document-verify .container-2 #result p {
+    width: 320px;
+    font-size: 25px;
+  }
+  #document-verify .container-2 #result .results-list {
+    width: 320px;
+  }
+  #document-verify .container-2 #result .results-list li {
+    font-size: 14px;
+  }
+  #document-verify .container-2 #result .results-list li span {
+    font-size: 14px;
+  }
+  #document-verify .container-2 #result .results-list h5 {
+    font-size: 16px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 footer {
   width: 100%;
   display: flex;
