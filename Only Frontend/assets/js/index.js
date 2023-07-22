@@ -155,4 +155,4 @@ $('#profil .container-2 .profil-down .profil-about .info-sec p').each(function (
     }
 });
 
-$('#profil .container-2 .profil-down .profil-about').width(iconSideWidth + maxWidthP + 10)
+$('#profil .container-2 .profil-down .profil-about').width(iconSideWidth + maxWidthP + 50)

@@ -2,6 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 80px;
 
     .container-2 {
         width: 90%;
@@ -137,25 +139,23 @@
             margin-top: 30px;
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
 
-            div{
-                h3{
-                    margin-bottom: 40px;
-                }
-            }
 
             .profil-about {
-                width: 30%;
+                width: 40%;
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
+                padding-right: 40px;
+                padding-bottom: 25px;
 
                 h3 {
                     color: #000;
                     font-size: 22px;
                     font-weight: 500;
                     align-items: center;
+                    margin-bottom: 10px;
                 }
 
                 .info-sec {
@@ -193,10 +193,70 @@
                 }
             }
 
-            
+            .profil-skills {
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                border-left: 1px solid #9C9C9C;
+                padding-left: 40px;
+                padding-bottom: 25px;
+
+                h3 {
+                    color: #000;
+                    font-size: 22px;
+                    font-weight: 500;
+                    align-items: center;
+                    margin-bottom: 20px;
+                }
+
+                .skill-item {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 2px dashed #9C9C9C;
+                    justify-content: space-between;
+                    padding: 10px;
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20px;
+                    }
+
+                    .view-btn {
+                        color: #3538CD;
+                        text-align: center;
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 12px;
+                        padding: 7px 14px;
+                        border-radius: 17px;
+                        background: #D9D9D9;
+                    }
+                }
+            }
+
+
         }
 
+        .profil-actions {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 20px;
 
+            .profil-action-btn {
+                padding: 6px 17px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                border-radius: 18px;
+                color: #3538CD;
+                background-color: #D9D9D9;
+                margin-left: 25px;
+            }
+        }
     }
 }
 
