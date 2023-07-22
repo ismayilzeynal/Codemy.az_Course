@@ -114,9 +114,9 @@
             <div class="container-2">
                 <div id="check-document">
                     <form class="manual-input" method="post">
-                        <input type="search" placeholder="ID daxil edin" class="id-search-input">
+                        <input type="search" placeholder="ID daxil edin" id="id-src-input" class="id-search-input">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="submit" class="btn btn-success-tiny" value="Axtar">
+                        <input id="id-src-input-submit" type="submit" class="btn btn-success-tiny" value="Axtar">
                     </form>
 
                     <p>Və ya</p>
@@ -125,10 +125,11 @@
                         <div class="row">
                             <div id="reader"></div>
                         </div>
-                        <input type="hidden" value="">
+                        <input id="hiddenDocumentId" type="hidden" value="">
                     </form>
                 </div>
                 <div id="result">
+                    <!-- <p id="result-success">Nəticə</p> -->
                     <p id="result-success">Sənəd tapıldı</p>
                     <!-- <p id="result-error">Sənəd tapılmadı, ID düzgün qeyd etdiyinizdən əmin olun</p> -->
                     <ul class="results-list">

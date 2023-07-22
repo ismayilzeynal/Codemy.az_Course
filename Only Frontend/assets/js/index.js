@@ -145,7 +145,9 @@ $(document).ready(function () {
 
 });
 
-// profil page sections width
+
+
+// Profil page sections width
 const iconSideWidth = $('.icon-side').width();
 let maxWidthP = 0;
 $('#profil .container-2 .profil-down .profil-about .info-sec p').each(function () {
@@ -159,25 +161,19 @@ $('#profil .container-2 .profil-down .profil-about').width(iconSideWidth + maxWi
 
 
 
-
-
-
 // Document Scan START
-
 function onScanSuccess(qrCodeMessage) {
-    // document.getElementById("result").innerHTML =
-    //     '<span class="result">' + qrCodeMessage + "</span>";
+    $('#hiddenDocumentId').val(qrCodeMessage);
+    $('#id-src-input').val(qrCodeMessage);
+    // redirect to link + /qrCodeMessage
 }
-function onScanError(errorMessage) {
-    console.log("error scan")
-}
+function onScanError(errorMessage) {}
 
 var html5QrCodeScanner = new Html5QrcodeScanner("reader", {
     fps: 10,
     qrbox: 250
 });
 html5QrCodeScanner.render(onScanSuccess, onScanError);
-
 // Document Scan END
 
 
