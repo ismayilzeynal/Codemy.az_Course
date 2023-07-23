@@ -80,6 +80,21 @@ ul,li {
     }
 }
 
+.btn-primary{
+    background: $gradient-blue-red;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    transition: all 0.2s;
+
+    &:hover{
+        // background: $gradient-blue-red-pruple;
+    }
+    &:focus{
+        // background: $gradient-blue-red-change;
+    }
+}
+
 .btn-success-tiny{
     background-color: #7F56D9;
     font-weight: 500;

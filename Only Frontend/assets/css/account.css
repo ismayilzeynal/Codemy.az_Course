@@ -117,6 +117,13 @@ ul, li {
   background-color: #491e74;
 }
 
+.btn-primary {
+  background: linear-gradient(99.26deg, #3D31D0 -2.58%, #DD2A2A 102.54%);
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  transition: all 0.2s;
+}
 .btn-success-tiny {
   background-color: #7F56D9;
   font-weight: 500;
