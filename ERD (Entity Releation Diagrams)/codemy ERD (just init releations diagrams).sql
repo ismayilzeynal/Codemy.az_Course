@@ -1,0 +1,451 @@
+CREATE TABLE [Slider] (
+	Id integer NOT NULL UNIQUE,
+	ImgUrl string NOT NULL,
+  CONSTRAINT [PK_SLIDER] PRIMARY KEY CLUSTERED
+  (
+  [Id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Course] (
+	Id int NOT NULL UNIQUE,
+	ImgUrl string NOT NULL,
+	Name string NOT NULL,
+	Desc string NOT NULL,
+	TeacherId int NOT NULL,
+	StartDate int NOT NULL,
+	SyllabusUrl string NOT NULL,
+	DemoUrl string NOT NULL,
+	RegisterUrl string NOT NULL,
+  CONSTRAINT [PK_COURSE] PRIMARY KEY CLUSTERED
+  (
+  [Id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [InstructorContacts] (
+	id integer NOT NULL UNIQUE,
+	Email string NOT NULL,
+	Phone string NOT NULL,
+	Github string NOT NULL,
+	Linkedin string NOT NULL,
+	Facebook string NOT NULL,
+	Instagram string NOT NULL,
+	Codemy string NOT NULL,
+	InstructorId integer NOT NULL,
+  CONSTRAINT [PK_INSTRUCTORCONTACTS] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [UserSocial] (
+	id integer NOT NULL UNIQUE,
+	Email string NOT NULL,
+	Phone string NOT NULL,
+	Github string NOT NULL,
+	Linkedin string NOT NULL,
+	Facebook string NOT NULL,
+	Instagram string NOT NULL,
+	UserId integer NOT NULL,
+  CONSTRAINT [PK_USERSOCIAL] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [User] (
+	id int NOT NULL UNIQUE,
+	Fullname string NOT NULL,
+	Bio string NOT NULL,
+	ImageUrl string NOT NULL,
+	Study string NOT NULL,
+	Work string NOT NULL,
+	JoinDate datetime NOT NULL,
+	Role string NOT NULL,
+  CONSTRAINT [PK_USER] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Medals] (
+	id int NOT NULL UNIQUE,
+	Gold int NOT NULL DEFAULT '0',
+	Silver int NOT NULL DEFAULT '0',
+	Bronze int NOT NULL DEFAULT '0',
+	UserId int NOT NULL,
+  CONSTRAINT [PK_MEDALS] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [CourseDetailsList] (
+	id int NOT NULL UNIQUE,
+	CourseId int NOT NULL,
+	Detail string NOT NULL,
+  CONSTRAINT [PK_COURSEDETAILSLIST] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [ShortLesson] (
+	id int NOT NULL UNIQUE,
+	EmbedYoutubeUrl string NOT NULL,
+	Title string NOT NULL,
+	Desc string NOT NULL,
+	CreatedDate string NOT NULL,
+	UserId int NOT NULL,
+  CONSTRAINT [PK_SHORTLESSON] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Event] (
+	id int NOT NULL UNIQUE,
+	ImageUrl string NOT NULL,
+	CreatedDate datetime NOT NULL,
+	Title string NOT NULL,
+	Desc string NOT NULL,
+	RegisterUrl string,
+	UserId int NOT NULL,
+  CONSTRAINT [PK_EVENT] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Competition] (
+	id int NOT NULL UNIQUE,
+	ImageUrl string NOT NULL,
+	Title string NOT NULL,
+	Desc string NOT NULL,
+	Password string NOT NULL,
+	StartDate datetime NOT NULL,
+	ContestUrl string NOT NULL,
+  CONSTRAINT [PK_COMPETITION] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [comment] (
+	id int NOT NULL,
+	Message string NOT NULL,
+	CreatedDate datetime NOT NULL,
+	UserId int NOT NULL,
+	EventId int NOT NULL,
+  CONSTRAINT [PK_COMMENT] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Skill] (
+	id int NOT NULL UNIQUE,
+	UserId int NOT NULL,
+	SkillName string NOT NULL,
+	DocumentUrl string,
+  CONSTRAINT [PK_SKILL] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [DocumentNotes] (
+	id int NOT NULL UNIQUE,
+	Title string NOT NULL,
+	Desc string NOT NULL,
+	DocumentId int NOT NULL,
+  CONSTRAINT [PK_DOCUMENTNOTES] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Document] (
+	id int NOT NULL UNIQUE,
+	VerficiationId string NOT NULL UNIQUE,
+	UserId int NOT NULL,
+	Type string NOT NULL,
+  CONSTRAINT [PK_DOCUMENT] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_18] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_18] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_19] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_19] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_20] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_20] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_21] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_21] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_22] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_22] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_23] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_23] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_24] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_24] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_25] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_25] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_26] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_26] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_27] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_27] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_28] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_28] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_29] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_29] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_30] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_30] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_14] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_14] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_15] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_15] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_16] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_16] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Untitled_17] (
+	id integer NOT NULL,
+  CONSTRAINT [PK_UNTITLED_17] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Instructor] (
+	id integer NOT NULL UNIQUE,
+	Fullname string NOT NULL,
+	Field string NOT NULL,
+	ImgUrl string NOT NULL,
+	Desc string NOT NULL,
+  CONSTRAINT [PK_INSTRUCTOR] PRIMARY KEY CLUSTERED
+  (
+  [id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+
+ALTER TABLE [Course] WITH CHECK ADD CONSTRAINT [Course_fk0] FOREIGN KEY ([TeacherId]) REFERENCES [Instructor]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [Course] CHECK CONSTRAINT [Course_fk0]
+GO
+
+ALTER TABLE [InstructorContacts] WITH CHECK ADD CONSTRAINT [InstructorContacts_fk0] FOREIGN KEY ([InstructorId]) REFERENCES [Instructor]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [InstructorContacts] CHECK CONSTRAINT [InstructorContacts_fk0]
+GO
+
+ALTER TABLE [UserSocial] WITH CHECK ADD CONSTRAINT [UserSocial_fk0] FOREIGN KEY ([UserId]) REFERENCES [User]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [UserSocial] CHECK CONSTRAINT [UserSocial_fk0]
+GO
+
+
+ALTER TABLE [Medals] WITH CHECK ADD CONSTRAINT [Medals_fk0] FOREIGN KEY ([UserId]) REFERENCES [User]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [Medals] CHECK CONSTRAINT [Medals_fk0]
+GO
+
+ALTER TABLE [CourseDetailsList] WITH CHECK ADD CONSTRAINT [CourseDetailsList_fk0] FOREIGN KEY ([CourseId]) REFERENCES [Course]([Id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [CourseDetailsList] CHECK CONSTRAINT [CourseDetailsList_fk0]
+GO
+
+ALTER TABLE [ShortLesson] WITH CHECK ADD CONSTRAINT [ShortLesson_fk0] FOREIGN KEY ([UserId]) REFERENCES [User]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [ShortLesson] CHECK CONSTRAINT [ShortLesson_fk0]
+GO
+
+ALTER TABLE [Event] WITH CHECK ADD CONSTRAINT [Event_fk0] FOREIGN KEY ([UserId]) REFERENCES [User]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [Event] CHECK CONSTRAINT [Event_fk0]
+GO
+
+
+ALTER TABLE [comment] WITH CHECK ADD CONSTRAINT [comment_fk0] FOREIGN KEY ([UserId]) REFERENCES [User]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [comment] CHECK CONSTRAINT [comment_fk0]
+GO
+ALTER TABLE [comment] WITH CHECK ADD CONSTRAINT [comment_fk1] FOREIGN KEY ([EventId]) REFERENCES [Event]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [comment] CHECK CONSTRAINT [comment_fk1]
+GO
+
+ALTER TABLE [Skill] WITH CHECK ADD CONSTRAINT [Skill_fk0] FOREIGN KEY ([UserId]) REFERENCES [User]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [Skill] CHECK CONSTRAINT [Skill_fk0]
+GO
+
+ALTER TABLE [DocumentNotes] WITH CHECK ADD CONSTRAINT [DocumentNotes_fk0] FOREIGN KEY ([DocumentId]) REFERENCES [Document]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [DocumentNotes] CHECK CONSTRAINT [DocumentNotes_fk0]
+GO
+
+ALTER TABLE [Document] WITH CHECK ADD CONSTRAINT [Document_fk0] FOREIGN KEY ([UserId]) REFERENCES [User]([id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [Document] CHECK CONSTRAINT [Document_fk0]
+GO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
