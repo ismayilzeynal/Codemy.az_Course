@@ -1,0 +1,282 @@
+#profil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 80px;
+
+    .container-2 {
+        width: 90%;
+        display: flex;
+        padding: 20px 30px 15px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: #C0C6DC;
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+        .profil-up {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #6F6F6F;
+
+            .profil-main-info {
+                width: 35%;
+                display: flex;
+                align-items: center;
+
+                .profil-photo {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                }
+
+                .main-info-texts {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 15px;
+
+                    .name-email {
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #9C9C9C;
+
+                        h5 {
+                            color: #344054;
+                            font-size: 22px;
+                            font-weight: 600;
+                        }
+
+                        h6 {
+                            color: #667085;
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .profil-social {
+                        margin-top: 20px;
+
+                        .fa-linkedin-in,
+                        .fa-instagram,
+                        .fa-facebook-f,
+                        .fa-github {
+                            font-size: 0.8rem;
+                            padding: 8px 10px;
+                        }
+                    }
+                }
+            }
+
+            .achivements {
+                width: 20%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                padding: 0 30px;
+                border-right: 1px solid #9C9C9C;
+                border-left: 1px solid #9C9C9C;
+
+                .medals {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+
+                    .medal {
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            height: 60px;
+                        }
+
+                        span {
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: 500;
+                            position: absolute;
+                            top: 50%;
+                        }
+                    }
+
+                    #silver-medal {
+                        margin: 0 10px;
+                    }
+                }
+
+                p {
+                    margin-top: 20px;
+                    color: #000;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+            }
+
+            .bio {
+                width: 35%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+                margin: 20px 10px 20px 15px;
+
+                p {
+                    color: #000;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+
+
+        .profil-down {
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+
+            .profil-about {
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding-right: 40px;
+                padding-bottom: 25px;
+
+                h3 {
+                    color: #000;
+                    font-size: 22px;
+                    font-weight: 500;
+                    align-items: center;
+                    margin-bottom: 10px;
+                }
+
+                .info-sec {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #9C9C9C;
+
+                    .icon-side {
+                        width: 55px;
+                        margin-top: 10px;
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+
+                        img {
+                            width: 32px;
+                            margin-bottom: 3px;
+                        }
+
+                        span {
+                            color: #000;
+                            font-size: 10px;
+                            font-weight: 500;
+                        }
+                    }
+
+                    p {
+                        color: #000;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .profil-skills {
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                border-left: 1px solid #9C9C9C;
+                padding-left: 40px;
+                padding-bottom: 25px;
+
+                h3 {
+                    color: #000;
+                    font-size: 22px;
+                    font-weight: 500;
+                    align-items: center;
+                    margin-bottom: 20px;
+                }
+
+                .skill-item {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 2px dashed #9C9C9C;
+                    justify-content: space-between;
+                    padding: 10px;
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20px;
+                    }
+
+                    .view-btn {
+                        color: #3538CD;
+                        text-align: center;
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 12px;
+                        padding: 7px 14px;
+                        border-radius: 17px;
+                        background: #D9D9D9;
+                    }
+                }
+            }
+
+
+        }
+
+        .profil-actions {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 20px;
+
+            .profil-action-btn {
+                padding: 6px 17px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                border-radius: 18px;
+                color: #3538CD;
+                background-color: #D9D9D9;
+                margin-left: 25px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1281px) {
+
+    #profil .container-2 .profil-up .profil-main-info {
+        width: 40%;
+
+        .profil-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    #profil .container-2 {
+        width: 95%;
+    }
+}

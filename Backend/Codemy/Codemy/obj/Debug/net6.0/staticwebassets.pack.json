@@ -1,244 +1,272 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Codemy.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Codemy.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\competitions.css",
+      "PackagePath": "staticwebassets\\css\\competitions.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\course-detail.css",
+      "PackagePath": "staticwebassets\\css\\course-detail.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\courses.css",
+      "PackagePath": "staticwebassets\\css\\courses.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\document-verification.css",
+      "PackagePath": "staticwebassets\\css\\document-verification.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\event-detail.css",
+      "PackagePath": "staticwebassets\\css\\event-detail.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\events.css",
+      "PackagePath": "staticwebassets\\css\\events.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\about.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\about.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\account.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\account.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\competitions.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\competitions.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\course-detail.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\course-detail.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\courses.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\courses.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\document-verification.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\document-verification.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\event-detail.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\event-detail.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\events.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\events.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\_basics.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\_basics.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\_grid.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\_variables.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_about-sec.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_about-sec.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_competition.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_competition.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_course-detail-single.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_course-detail-single.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_course-examples.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_course-examples.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_document_verifying.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_document_verifying.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_event-detail-single.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_event-detail-single.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_events-page.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_events-page.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_footer.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_login-reg.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_login-reg.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_navbar.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_page-head.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_page-head.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_pagination.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_profile-section.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_profile-section.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_short-lesson-examples.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_short-lesson-examples.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_subscribe.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_subscribe.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_teacher-detail-single.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_teacher-detail-single.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_teacher-examples.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\partials\\sections\\_teacher-examples.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\profile.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\profile.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\shorts.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\shorts.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\style.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\teacher-detail.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\teacher-detail.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\teachers.scss",
+      "PackagePath": "staticwebassets\\css\\sass\\teachers.scss"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\shorts.css",
+      "PackagePath": "staticwebassets\\css\\shorts.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\teacher-detail.css",
+      "PackagePath": "staticwebassets\\css\\teacher-detail.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\teachers.css",
+      "PackagePath": "staticwebassets\\css\\teachers.css"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\cards\\c-1.png",
+      "PackagePath": "staticwebassets\\img\\cards\\c-1.png"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\cards\\c-2.png",
+      "PackagePath": "staticwebassets\\img\\cards\\c-2.png"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\cards\\c-3.png",
+      "PackagePath": "staticwebassets\\img\\cards\\c-3.png"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\cards\\c-4.png",
+      "PackagePath": "staticwebassets\\img\\cards\\c-4.png"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\1.png"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\1.svg"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\2.png"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\2.svg"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\3.png"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\3.svg"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\join-date.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\join-date.svg"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\study.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\study.svg"
     },
     {
-      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\work.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\work.svg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\logos\\codemyLogo-removed.png",
+      "PackagePath": "staticwebassets\\img\\logos\\codemyLogo-removed.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\logos\\codemyLogo.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\codemyLogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\profil-photos\\LLL.jpg",
+      "PackagePath": "staticwebassets\\img\\profil-photos\\LLL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\slider\\slider1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\slider\\slider2.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\slider\\slider3.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Codemy.Microsoft.AspNetCore.StaticWebAssets.props",

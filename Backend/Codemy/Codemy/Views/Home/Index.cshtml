@@ -1,0 +1,365 @@
+﻿@model HomeVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Header START -->
+<header>
+    <nav>
+        <a href="./index.html">
+            <div class="logo-part">
+                <img src="~/img/logos/codemyLogo.svg" alt="logo">
+                <p>Codemy</p>
+            </div>
+        </a>
+        <ul class="nav-links">
+            <ul>
+                <li class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
+                    Kurslar
+                </li>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li class="dropdown-item"><a href="./courses.html"> Ödənişli Kurslar</a></li>
+                    <li class="dropdown-item"><a href="./short-lessons.html">Qısa dərslər</a></li>
+                </ul>
+            </ul>
+            <ul>
+                <li class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
+                    Əyləncə
+                </li>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                    <li class="dropdown-item"><a href="./events.html">Tədbirlər</a></li>
+                    <li class="dropdown-item"><a href="./competitions.html">Müsabiqələr</a></li>
+                    <li class="dropdown-item"><a href="./games.html">Oyunlar</a></li>
+                    <li class="dropdown-item"><a href="./document-verification.html">Sənəd təsdiqi</a></li>
+                </ul>
+            </ul>
+            <li><a href="./teachers.html">Müəllimlər</a></li>
+            <li><a href="./about.html">Haqqımızda</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-operations">
+        <form id="nav-search">
+            <input type="search" required placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="sign-components">
+            <a href="./login.html" class="login success">
+                Login
+            </a>
+            <a href="./login.html" class="btn btn-success signup">
+                Create an Account
+            </a>
+        </div>
+    </div>
+
+    <div class="burger-nav">
+        <i class="fa-solid fa-bars-staggered"></i>
+        <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+        <i class="fa-solid fa-xmark"></i>
+        <div class="burger-menu">
+            <li class="level-1 parent" id="parent-1"><a>Kurslar</a></li>
+            <li class="level-2 child child-1"><a href="./courses.html">Ödənişli Kurslar</a></li>
+            <li class="level-2 child child-1"><a href="./short-lessons.html">Qısa dərslər</a></li>
+
+            <li class="level-1 parent" id="parent-2"><a>Əyləncə</a></li>
+            <li class="level-2 child child-2"><a href="./events.html">Tədbirlər</a></li>
+            <li class="level-2 child child-2"><a href="./competitions.html">Müsabiqələr</a></li>
+            <li class="level-2 child child-2"><a href="./games.html">Oyunlar</a></li>
+            <li class="level-2 child child-2"><a href="./document-verification.html">Sənəd Təsdiqi</a></li>
+
+            <li class="level-1"><a href="./teachers.html">Müəllimlər</a></li>
+            <li class="level-1"><a href="./about.html">Haqqımızda</a></li>
+            <li class="level-1"><a href="#contact">Əlaqə</a></li>
+
+
+            <div class="sign-components">
+                <a href="./login.html" class="btn btn-success signup">
+                    Login or Signup
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header END -->
+
+
+<!-- Landing START -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/img/slider/slider1.jpg" class="d-block w-100" alt="slider1">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/slider/slider2.jpg" class="d-block w-100" alt="slider2">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/slider/slider3.jpg" class="d-block w-100" alt="slider3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- Landing END -->
+
+
+<!-- Course Examples START-->
+<section id="course-examples">
+    <div class="container">
+        <h5 class="col-12">Bəzi Kurslar</h5>
+        <div class="course-card">
+            <a href="">
+                <img src="~/img/cards/c-1.png" class="card-img-top" alt="course image">
+            </a>
+            <div class="card-body">
+                <a href="#">
+                    <h6 class="teacher-name">Ismayil Teacher</h6>
+                </a>
+                <a href="#" class="col-12 card-title-direction">
+                    <h5 class="card-title">Graphic Design</h5>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non turpis non dui
+                    faucibus
+                </p>
+                <a href="#" class="btn-more">Daha çox</a>
+            </div>
+        </div>
+        <div class="course-card">
+            <a href="#">
+                <img src="~/img/cards/c-1.png" class="card-img-top" alt="course image">
+            </a>
+            <div class="card-body">
+                <a href="#">
+                    <h6 class="teacher-name">Ismayil Teacher</h6>
+                </a>
+                <a href="#" class="col-12 card-title-direction">
+                    <h5 class="card-title">Graphic Design</h5>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non turpis non dui
+                    faucibus
+                </p>
+                <a href="#" class="btn-more">Daha çox</a>
+            </div>
+        </div>
+        <div class="course-card">
+            <a href="">
+                <img src="~/img/cards/c-1.png" class="card-img-top" alt="course image">
+            </a>
+            <div class="card-body">
+                <a href="#">
+                    <h6 class="teacher-name">Ismayil Teacher</h6>
+                </a>
+                <a href="#" class="col-12 card-title-direction">
+                    <h5 class="card-title">Graphic Design</h5>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non turpis non dui
+                    faucibus
+                </p>
+                <a href="#" class="btn-more">Daha çox</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Course Examples END-->
+
+
+<div class="col-12 d-flex justify-content-center">
+    <div class="line-between-sections"></div>
+</div>
+
+
+<!-- Teacher Examples START-->
+<section id="teacher-examples">
+    <div class="container">
+        <h5 class="col-12">Bəzi Müəllimlər</h5>
+        <div class="teacher-card">
+            <a href="">
+                <img src="~/img/cards/c-2.png" class="card-img-top" alt="course image">
+            </a>
+            <div class="card-body">
+                <a href="#">
+                    <h6 class="teacher-name">C++ və Alqoritm</h6>
+                </a>
+                <a href="#" class="col-12 card-title-direction">
+                    <h5 class="card-title">İsmayıl Zeynalov</h5>
+                </a>
+                <a href="#" class="btn-more">Daha çox</a>
+            </div>
+        </div>
+        <div class="teacher-card">
+            <a href="">
+                <img src="~/img/cards/c-2.png" class="card-img-top" alt="course image">
+            </a>
+            <div class="card-body">
+                <a href="#">
+                    <h6 class="teacher-name">C++ və Alqoritm</h6>
+                </a>
+                <a href="#" class="col-12 card-title-direction">
+                    <h5 class="card-title">İsmayıl Zeynalov</h5>
+                </a>
+                <a href="#" class="btn-more">Daha çox</a>
+            </div>
+        </div>
+        <div class="teacher-card">
+            <a href="">
+                <img src="~/img/cards/c-2.png" class="card-img-top" alt="course image">
+            </a>
+            <div class="card-body">
+                <a href="#">
+                    <h6 class="teacher-name">C++ və Alqoritm</h6>
+                </a>
+                <a href="#" class="col-12 card-title-direction">
+                    <h5 class="card-title">İsmayıl Zeynalov</h5>
+                </a>
+                <a href="#" class="btn-more">Daha çox</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Teacher Examples END-->
+
+
+<div class="col-12 d-flex justify-content-center">
+    <div class="line-between-sections"></div>
+</div>
+
+
+<!-- Short Lesson Examples START-->
+<section id="short-lessons-examples">
+    <div class="container">
+        <div class="card mb-3 col-12">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/x_fg8-nJ_ms"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <a href="">
+                            <h5 class="card-title">C++ and Algoritmh | if-else working principle</h5>
+                        </a>
+                        <h6>Ismayil Zeynalov - 3 days ago</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 col-12">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/x_fg8-nJ_ms"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <a href="">
+                            <h5 class="card-title">C++ and Algoritmh | if-else working principle</h5>
+                        </a>
+                        <h6>Ismayil Zeynalov - 3 days ago</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Short Lesson Examples END-->
+
+
+<!-- Subscribe START-->
+<section class="subscribe-section">
+    <div class="container">
+        <div class="content">
+            <form class="subscription">
+                <input class="add-email" type="email" placeholder="subscribe@me.now">
+                <button class="submit-email" type="button">
+                    <span class="before-submit">Subscribe</span>
+                    <span class="after-submit">Thank you for subscribing!</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Subscribe END-->
+
+
+<!-- Footer START-->
+<footer id="contact">
+    <div class="footer-logo">
+        <a href="./index.html">
+            <img src="~/img/logos/codemyLogo-removed.png" alt="logo">
+            <h3>Codemy</h3>
+        </a>
+    </div>
+    <div class="footer-nav">
+        <a href="#">Product</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
+    </div>
+    <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</footer>
+<!-- Footer END-->
+
+
+<!-- external scripts START -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+<!-- external scripts END -->
+
+
+<!-- my scripts START -->
+<script src="~/js/index.js"></script>
+<!-- my scripts END -->

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NuM7DB+32MwimB+/7S795e1miB5g1L1Bk3tATklNv4M=",
+  "Hash": "LJMXD1e4qnZpowg9KxuMl/TMe3q7JmdeMoVTbNd6tdw=",
   "Source": "Codemy",
   "BasePath": "_content/Codemy",
   "Mode": "Default",
@@ -17,46 +17,46 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Codemy.styles.css",
       "SourceId": "Codemy",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "css/site.css",
+      "RelativePath": "Codemy.styles.css",
       "AssetKind": "All",
-      "AssetMode": "All",
+      "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
       "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Codemy.styles.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Codemy.bundle.scp.css",
       "SourceId": "Codemy",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "Codemy.bundle.scp.css",
       "AssetKind": "All",
-      "AssetMode": "All",
+      "AssetMode": "Reference",
       "AssetRole": "Primary",
       "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Codemy.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\about.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "js/site.js",
+      "RelativePath": "css/about.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\css\\about.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\account.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "RelativePath": "css/account.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\css\\account.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\competitions.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "RelativePath": "css/competitions.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\competitions.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\course-detail.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "RelativePath": "css/course-detail.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\course-detail.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\courses.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "RelativePath": "css/courses.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\courses.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\document-verification.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "RelativePath": "css/document-verification.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\css\\document-verification.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\event-detail.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "RelativePath": "css/event-detail.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\event-detail.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\events.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "RelativePath": "css/events.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\events.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\profile.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "RelativePath": "css/profile.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\profile.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\about.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "RelativePath": "css/sass/about.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\about.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\account.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "RelativePath": "css/sass/account.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\account.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\competitions.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "RelativePath": "css/sass/competitions.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\competitions.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\course-detail.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "RelativePath": "css/sass/course-detail.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\course-detail.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\courses.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "RelativePath": "css/sass/courses.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\courses.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\document-verification.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "RelativePath": "css/sass/document-verification.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\document-verification.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\event-detail.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "RelativePath": "css/sass/event-detail.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\event-detail.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\events.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "RelativePath": "css/sass/events.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\events.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\_basics.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "RelativePath": "css/sass/partials/_basics.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\_basics.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\_grid.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "RelativePath": "css/sass/partials/_grid.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\_grid.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\_variables.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "RelativePath": "css/sass/partials/_variables.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_about-sec.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "RelativePath": "css/sass/partials/sections/_about-sec.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_about-sec.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_competition.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "RelativePath": "css/sass/partials/sections/_competition.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_competition.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_course-detail-single.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "RelativePath": "css/sass/partials/sections/_course-detail-single.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_course-detail-single.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_course-examples.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "RelativePath": "css/sass/partials/sections/_course-examples.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,15 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_course-examples.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_document_verifying.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "RelativePath": "css/sass/partials/sections/_document_verifying.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,15 +473,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_document_verifying.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_event-detail-single.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "RelativePath": "css/sass/partials/sections/_event-detail-single.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -490,15 +490,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_event-detail-single.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_events-page.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "RelativePath": "css/sass/partials/sections/_events-page.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -507,15 +507,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_events-page.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_footer.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "RelativePath": "css/sass/partials/sections/_footer.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -524,15 +524,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_footer.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_login-reg.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "RelativePath": "css/sass/partials/sections/_login-reg.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -541,15 +541,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_login-reg.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_navbar.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "RelativePath": "css/sass/partials/sections/_navbar.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -558,15 +558,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_navbar.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_page-head.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "RelativePath": "css/sass/partials/sections/_page-head.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -575,15 +575,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_page-head.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_pagination.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "RelativePath": "css/sass/partials/sections/_pagination.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -592,15 +592,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_profile-section.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "RelativePath": "css/sass/partials/sections/_profile-section.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -609,15 +609,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_profile-section.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_short-lesson-examples.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "RelativePath": "css/sass/partials/sections/_short-lesson-examples.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -626,15 +626,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_short-lesson-examples.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_subscribe.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "RelativePath": "css/sass/partials/sections/_subscribe.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -643,15 +643,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_subscribe.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_teacher-detail-single.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "RelativePath": "css/sass/partials/sections/_teacher-detail-single.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_teacher-detail-single.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\partials\\sections\\_teacher-examples.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "RelativePath": "css/sass/partials/sections/_teacher-examples.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -677,15 +677,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\partials\\sections\\_teacher-examples.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\profile.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
+      "RelativePath": "css/sass/profile.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -694,15 +694,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\profile.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\shorts.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "RelativePath": "css/sass/shorts.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -711,15 +711,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\shorts.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\style.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "RelativePath": "css/sass/style.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,15 +728,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\style.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\teacher-detail.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "RelativePath": "css/sass/teacher-detail.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -745,15 +745,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\teacher-detail.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\sass\\teachers.scss",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
+      "RelativePath": "css/sass/teachers.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -762,15 +762,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\css\\sass\\teachers.scss"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\shorts.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "RelativePath": "css/shorts.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -779,15 +779,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\css\\shorts.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\style.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "RelativePath": "css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -796,15 +796,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\teacher-detail.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "RelativePath": "css/teacher-detail.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -813,15 +813,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\css\\teacher-detail.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\css\\teachers.css",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/bootstrap/LICENSE",
+      "RelativePath": "css/teachers.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -830,15 +830,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\teachers.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\cards\\c-1.png",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "img/cards/c-1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -847,15 +847,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\img\\cards\\c-1.png"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\cards\\c-2.png",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "img/cards/c-2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -864,15 +864,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\img\\cards\\c-2.png"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\cards\\c-3.png",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "img/cards/c-3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,15 +881,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\img\\cards\\c-3.png"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\cards\\c-4.png",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery/LICENSE.txt",
+      "RelativePath": "img/cards/c-4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,15 +898,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\img\\cards\\c-4.png"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\1.png",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "RelativePath": "img/icons/1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -915,15 +915,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\1.png"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\1.svg",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "RelativePath": "img/icons/1.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -932,15 +932,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\1.svg"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\2.png",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "RelativePath": "img/icons/2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -949,15 +949,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\2.png"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\2.svg",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "RelativePath": "img/icons/2.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -966,15 +966,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\2.svg"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\3.png",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "RelativePath": "img/icons/3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -983,15 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\3.png"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\3.svg",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "img/icons/3.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1000,15 +1000,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\3.svg"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\join-date.svg",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "img/icons/join-date.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1017,15 +1017,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\join-date.svg"
     },
     {
-      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\study.svg",
       "SourceId": "Codemy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
       "BasePath": "_content/Codemy",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "img/icons/study.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1034,7 +1034,143 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\study.svg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\icons\\work.svg",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "img/icons/work.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons\\work.svg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\logos\\codemyLogo.svg",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "img/logos/codemyLogo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logos\\codemyLogo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\logos\\codemyLogo-removed.png",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "img/logos/codemyLogo-removed.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logos\\codemyLogo-removed.png"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\profil-photos\\LLL.jpg",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "img/profil-photos/LLL.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\profil-photos\\LLL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\slider\\slider1.jpg",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "img/slider/slider1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\slider\\slider1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\slider\\slider2.jpg",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "img/slider/slider2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\slider\\slider2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\slider\\slider3.jpg",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "img/slider/slider3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\slider\\slider3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\js\\index.js",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     }
   ]
 }

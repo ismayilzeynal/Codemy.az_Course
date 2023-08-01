@@ -1,0 +1,130 @@
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .previous,
+        .next {
+            a {
+                width: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover {
+                    color: rgb(152, 75, 223);
+                }
+
+                p {
+                    margin: 0 10px;
+                }
+
+                i,
+                p {
+                    font-weight: 600;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .numbers {
+            width: 60%;
+            display: flex;
+            justify-content: center;
+
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    margin-right: 8px;
+                    width: 40px;
+
+
+                    .page-link {
+                        text-align: center;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        border: none;
+                        border-radius: 8px;
+
+                        &:hover {
+                            background-color: #eeebf5;
+                        color: #7F56D9;
+                        }
+                    }
+                }
+
+                .disabled-pag {
+                    a {
+                        color: #667085;
+                    }
+                }
+
+                .enabled-pag {
+                    a {
+                        background-color: #eeebf5;
+                        color: #7F56D9;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .pagination {
+        .container {
+            width: 95%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-right: 0;
+            padding-left: 0;
+
+            .previous,
+            .next {
+                a {
+                    p {
+                        margin: 0 10px;
+                        display: none;
+                    }
+    
+                    i,
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+    
+            .numbers {
+                width: 60%;
+
+                ul {
+                    width: 100%;
+    
+                    li {
+                        margin-right: 8px;
+                        width: 40px;
+    
+    
+                        .page-link {
+                            font-size: 1rem;
+                        }
+                    }
+    
+    
+    
+                }
+            }
+        }
+    }
+}

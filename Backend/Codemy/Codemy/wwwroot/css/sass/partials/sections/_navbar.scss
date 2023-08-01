@@ -1,0 +1,314 @@
+/* ------------ Header START -------------- */
+header {
+    // z-index: 999;
+    box-shadow: $dark-grey 0px 1px 10px -5px;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-start;
+
+    nav {
+        width: 60%;
+        display: flex;
+
+        .logo-part {
+            width: 20%;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: $nav-logo-size;
+                margin-right: 10px;
+            }
+
+            p {
+                font-size: $nav-logo-text-size;
+                font-weight: 700;
+                color: $dark-color;
+            }
+        }
+
+        .nav-links {
+            width: 70%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 30px;
+
+
+            li:hover {
+                background: $gradient-blue-purple;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+
+            ul li:hover {
+                background: $gradient-blue-purple;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+
+            li {
+                padding: 6px 18px;
+                border: 0px;
+
+            }
+
+            * {
+                font-weight: 600;
+                color: $dark-color;
+            }
+        }
+    }
+
+    .nav-operations {
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        #nav-search {
+            display: flex;
+            align-items: center;
+            padding: 6px 9px;
+            position: relative;
+
+            i {
+                position: absolute;
+                left: 20px;
+                font-size: 13px;
+                color: $purple-tiny;
+            }
+
+            input {
+                padding: 3px 3px 3px 35px;
+                outline: none;
+                border: 1px solid $purple-tiny-half;
+                font-weight: 400;
+                color: $purple;
+                border-radius: 20px;
+                width: 200px;
+                font-size: calc(1rem - 2px);
+
+                &::placeholder {
+                    color: $purple-tiny;
+                }
+            }
+        }
+
+        .sign-components {
+            padding-left: 25px;
+
+            .login {
+                margin-right: 20px;
+                font-weight: 600;
+                font-size: $base-font-size;
+            }
+        }
+    }
+
+
+    .burger-nav {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1381px) {
+    header nav {
+        .nav-links {
+            margin-left: 0px;
+        }
+
+        .logo-part p {
+            display: none;
+        }
+    }
+
+    .nav-operations .sign-components .login {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1201px) {
+    header {
+        box-shadow: $dark-grey 0px 1px 10px -5px;
+        padding: 5px;
+
+        nav {
+            a .logo-part img {
+                padding: 5px;
+                background-color: white;
+                border-radius: 50%;
+                width: $nav-logo-size*1.4;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+
+        .nav-operations {
+            display: none;
+        }
+
+        .burger-nav {
+            width: 70%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+
+            .fa-bars-staggered {
+                cursor: pointer;
+                padding: 8px 7px 8px 8px;
+                border-radius: 50%;
+                background-color: $grey;
+                color: #FFF;
+                transition: background-color 0.25s;
+                font-size: 25px;
+
+                &:hover {
+                    background-color: $dark-grey;
+                }
+            }
+
+            .fa-xmark {
+                z-index: 1;
+                cursor: pointer;
+                border-radius: 50%;
+                font-size: 30px;
+                color: white;
+                background: $gradient-blue-red;
+                padding: 5px 9px;
+                border-radius: 50%;
+                display: none;
+                transition: transform 0.4s;
+                position: fixed;
+
+                &:hover {
+                    background: $gradient-blue-red-change;
+                    color: $grey;
+                    transform: scale(1.05);
+                }
+            }
+
+            .burger-menu {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                position: fixed;
+                top: 0;
+                left: 0;
+                background-color: $purple-tiny;
+                padding: 10px 0 100px 10px;
+                display: none;
+
+                li,
+                li a {
+                    font-weight: 600;
+                }
+
+                li {
+                    width: 70%;
+                    padding: 5px 0 5px 10px;
+                    background-color: $grey-white;
+                    border-radius: 5px;
+                    margin: 3px 0;
+
+                    &:hover a {
+                        background: $gradient-blue-red;
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+                    }
+                }
+
+                .child {
+                    display: none;
+                    margin-left: 60px;
+                    font-size: calc(1rem - 1px);
+                }
+
+                .parent {
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        content: "\f105";
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 14px;
+                        top: 50%;
+                        transform: translate(8px, -50%);
+
+                    }
+
+                    &.rotate::after {
+                        transform: rotate(90deg) translate(100%, -8px);
+                        top: 0;
+                    }
+                }
+
+                .sign-components
+                {
+                    width: 100%;
+                    margin-top: 30px;
+
+                    .signup{
+                        position: absolute;
+                        bottom: 25px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        box-shadow: 0px 2px 6px $grey-white-half;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 401px) {
+    header .burger-nav .fa-xmark {
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ Header END -------------- */
