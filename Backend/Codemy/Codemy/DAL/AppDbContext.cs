@@ -11,9 +11,6 @@ namespace Codemy.DAL
 
         }
 
-        //public DbSet<HeadBio> HeadBios { get; set; }
-        //public DbSet<Bio> Bio { get; set; }
-
 
     }
 }
