@@ -12,5 +12,10 @@ namespace Codemy.DAL
         }
 
 
+        public DbSet<Slider> Sliders { get; set; }
+
+
+
+
     }
 }
