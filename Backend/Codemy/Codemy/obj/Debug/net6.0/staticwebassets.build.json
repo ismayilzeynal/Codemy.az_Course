@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LJMXD1e4qnZpowg9KxuMl/TMe3q7JmdeMoVTbNd6tdw=",
+  "Hash": "gzc/GfvplFlHVcL35Ep491GnIPBHySz3Rs5tjx9lFiE=",
   "Source": "Codemy",
   "BasePath": "_content/Codemy",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logos\\codemyLogo-removed.png"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\profil-photos\\ismayil.jpg",
+      "SourceId": "Codemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\",
+      "BasePath": "_content/Codemy",
+      "RelativePath": "img/profil-photos/ismayil.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\profil-photos\\ismayil.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\OneDrive\\Desktop\\Full Stack\\Project\\Backend\\Codemy\\Codemy\\wwwroot\\img\\profil-photos\\LLL.jpg",

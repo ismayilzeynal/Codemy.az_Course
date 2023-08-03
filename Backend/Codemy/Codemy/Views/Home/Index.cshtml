@@ -42,63 +42,27 @@
 <section id="course-examples">
     <div class="container">
         <h5 class="col-12">Bəzi Kurslar</h5>
-        <div class="course-card">
-            <a href="">
-                <img src="~/img/cards/c-1.png" class="card-img-top" alt="course image">
-            </a>
-            <div class="card-body">
-                <a href="#">
-                    <h6 class="teacher-name">Ismayil Teacher</h6>
+        @for (int i = 0; i < 3; i++)
+        {
+            <div class="course-card">
+                <a href="">
+                    <img src="~/img/cards/@Model.Courses[i].ImageUrl" class="card-img-top" alt="course image">
                 </a>
-                <a href="#" class="col-12 card-title-direction">
-                    <h5 class="card-title">Graphic Design</h5>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non turpis non dui
-                    faucibus
-                </p>
-                <a href="#" class="btn-more">Daha çox</a>
+                <div class="card-body">
+                    <a href="#">
+                        <h6 class="teacher-name">@Model.Courses[i].Instructor.Fullname</h6>
+                    </a>
+                    <a href="#" class="col-12 card-title-direction">
+                        <h5 class="card-title">@Model.Courses[i].Name</h5>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <p class="card-text">
+                        @Model.Courses[i].Desc
+                    </p>
+                    <a href="#" class="btn-more">Daha çox</a>
+                </div>
             </div>
-        </div>
-        <div class="course-card">
-            <a href="#">
-                <img src="~/img/cards/c-1.png" class="card-img-top" alt="course image">
-            </a>
-            <div class="card-body">
-                <a href="#">
-                    <h6 class="teacher-name">Ismayil Teacher</h6>
-                </a>
-                <a href="#" class="col-12 card-title-direction">
-                    <h5 class="card-title">Graphic Design</h5>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non turpis non dui
-                    faucibus
-                </p>
-                <a href="#" class="btn-more">Daha çox</a>
-            </div>
-        </div>
-        <div class="course-card">
-            <a href="">
-                <img src="~/img/cards/c-1.png" class="card-img-top" alt="course image">
-            </a>
-            <div class="card-body">
-                <a href="#">
-                    <h6 class="teacher-name">Ismayil Teacher</h6>
-                </a>
-                <a href="#" class="col-12 card-title-direction">
-                    <h5 class="card-title">Graphic Design</h5>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non turpis non dui
-                    faucibus
-                </p>
-                <a href="#" class="btn-more">Daha çox</a>
-            </div>
-        </div>
+        }
     </div>
 </section>
 <!-- Course Examples END-->
@@ -113,49 +77,23 @@
 <section id="teacher-examples">
     <div class="container">
         <h5 class="col-12">Bəzi Müəllimlər</h5>
-        <div class="teacher-card">
-            <a href="">
-                <img src="~/img/cards/c-2.png" class="card-img-top" alt="course image">
-            </a>
-            <div class="card-body">
-                <a href="#">
-                    <h6 class="teacher-name">C++ və Alqoritm</h6>
+        @for (int i = 0; i < 3; i++)
+        {
+            <div class="teacher-card">
+                <a href="">
+                    <img src="~/img/cards/@Model.Instructors[i].ImageUrl" class="card-img-top" alt="course image">
                 </a>
-                <a href="#" class="col-12 card-title-direction">
-                    <h5 class="card-title">İsmayıl Zeynalov</h5>
-                </a>
-                <a href="#" class="btn-more">Daha çox</a>
+                <div class="card-body">
+                    <a href="#">
+                        <h6 class="teacher-name">@Model.Instructors[i].Field</h6>
+                    </a>
+                    <a href="#" class="col-12 card-title-direction">
+                        <h5 class="card-title">@Model.Instructors[i].Fullname</h5>
+                    </a>
+                    <a href="#" class="btn-more">Daha çox</a>
+                </div>
             </div>
-        </div>
-        <div class="teacher-card">
-            <a href="">
-                <img src="~/img/cards/c-2.png" class="card-img-top" alt="course image">
-            </a>
-            <div class="card-body">
-                <a href="#">
-                    <h6 class="teacher-name">C++ və Alqoritm</h6>
-                </a>
-                <a href="#" class="col-12 card-title-direction">
-                    <h5 class="card-title">İsmayıl Zeynalov</h5>
-                </a>
-                <a href="#" class="btn-more">Daha çox</a>
-            </div>
-        </div>
-        <div class="teacher-card">
-            <a href="">
-                <img src="~/img/cards/c-2.png" class="card-img-top" alt="course image">
-            </a>
-            <div class="card-body">
-                <a href="#">
-                    <h6 class="teacher-name">C++ və Alqoritm</h6>
-                </a>
-                <a href="#" class="col-12 card-title-direction">
-                    <h5 class="card-title">İsmayıl Zeynalov</h5>
-                </a>
-                <a href="#" class="btn-more">Daha çox</a>
-            </div>
-        </div>
-
+        }
     </div>
 </section>
 <!-- Teacher Examples END-->
