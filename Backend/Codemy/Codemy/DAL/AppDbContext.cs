@@ -14,6 +14,13 @@ namespace Codemy.DAL
 
         public DbSet<Slider> Sliders { get; set; }
 
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<CourseDetail> CourseDetails { get; set; }
+        public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<InstructorContacts> InstructorContacts { get; set; }
+
+
+
 
 
 
