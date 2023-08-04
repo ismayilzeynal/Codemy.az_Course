@@ -20,8 +20,12 @@ namespace Codemy.Controllers
             HomeVM homeVM = new();
             homeVM.Sliders = _appDbContext.Sliders.ToList();
             homeVM.Courses = _appDbContext.Courses
-                .Include(c => c.Instructor).ToList();
+                .Include(c => c.Instructor)
+                .ToList();
             homeVM.Instructors = _appDbContext.Instructors.ToList();
+            homeVM.ShortLessons = _appDbContext.ShortLessons
+                .Include(s=>s.AppUser)
+                .ToList();
 
             return View(homeVM);
         }

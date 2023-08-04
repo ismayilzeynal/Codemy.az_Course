@@ -19,6 +19,9 @@ namespace Codemy.DAL
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<InstructorContacts> InstructorContacts { get; set; }
 
+        public DbSet<ShortLesson> ShortLessons { get; set; }
+
+
 
 
 

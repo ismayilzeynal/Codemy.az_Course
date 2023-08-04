@@ -7,5 +7,6 @@ namespace Codemy.ViewModels.Home
         public List<Slider> Sliders { get; set; }
         public List<Course> Courses { get; set; }
         public List<Instructor> Instructors { get; set; }
+        public List<ShortLesson> ShortLessons { get; set; }
     }
 }

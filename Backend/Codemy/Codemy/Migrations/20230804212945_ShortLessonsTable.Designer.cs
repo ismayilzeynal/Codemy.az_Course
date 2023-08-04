@@ -4,6 +4,7 @@ using Codemy.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Codemy.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230804212945_ShortLessonsTable")]
+    partial class ShortLessonsTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -148,7 +150,7 @@ namespace Codemy.Migrations
 
                     b.HasIndex("InstructorId");
 
-                    b.ToTable("Courses", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("Codemy.Models.CourseDetail", b =>
@@ -179,7 +181,7 @@ namespace Codemy.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("CourseDetails", (string)null);
+                    b.ToTable("CourseDetails");
                 });
 
             modelBuilder.Entity("Codemy.Models.Instructor", b =>
@@ -217,7 +219,7 @@ namespace Codemy.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Instructors", (string)null);
+                    b.ToTable("Instructors");
                 });
 
             modelBuilder.Entity("Codemy.Models.InstructorContacts", b =>
@@ -273,7 +275,7 @@ namespace Codemy.Migrations
                     b.HasIndex("InstructorId")
                         .IsUnique();
 
-                    b.ToTable("InstructorContacts", (string)null);
+                    b.ToTable("InstructorContacts");
                 });
 
             modelBuilder.Entity("Codemy.Models.ShortLesson", b =>
@@ -313,7 +315,7 @@ namespace Codemy.Migrations
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("ShortLessons", (string)null);
+                    b.ToTable("ShortLessons");
                 });
 
             modelBuilder.Entity("Codemy.Models.Slider", b =>
@@ -339,7 +341,7 @@ namespace Codemy.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders", (string)null);
+                    b.ToTable("Sliders");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
