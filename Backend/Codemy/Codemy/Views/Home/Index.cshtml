@@ -123,7 +123,10 @@
                             <a href="https://youtu.be/@ShortLesson.EmbedYoutubeUrl">
                                 <h5 class="card-title">@ShortLesson.Title</h5>
                             </a>
-                            <h6>@ShortLesson.AppUser.Fullname - 3 days ago ************</h6>
+                            @{
+                                DateTime createDate = ShortLesson.CreateDate.GetValueOrDefault();
+                            }
+                            <h6>@ShortLesson.AppUser.Fullname - @TimeRemainCalculator.RemainingTimeCalculate(createDate)</h6>
                             <p class="card-text">
                                 @ShortLesson.Desc
                             </p>
