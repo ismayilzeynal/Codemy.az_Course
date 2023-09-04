@@ -4,6 +4,7 @@ using Codemy.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Codemy.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230825100908_eventsTable")]
+    partial class eventsTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,10 +47,6 @@ namespace Codemy.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Fullname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -99,43 +97,6 @@ namespace Codemy.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-                });
-
-            modelBuilder.Entity("Codemy.Models.Comment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("AppUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime?>("CreateDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("EventId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Message")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AppUserId");
-
-                    b.HasIndex("EventId");
-
-                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("Codemy.Models.Course", b =>
@@ -231,9 +192,9 @@ namespace Codemy.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Author")
+                    b.Property<string>("AppUserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime?>("CreateDate")
                         .HasColumnType("datetime2");
@@ -260,6 +221,8 @@ namespace Codemy.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
 
                     b.ToTable("Events");
                 });
@@ -557,25 +520,6 @@ namespace Codemy.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Codemy.Models.Comment", b =>
-                {
-                    b.HasOne("Codemy.Models.AppUser", "AppUser")
-                        .WithMany("Comments")
-                        .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Codemy.Models.Event", "Event")
-                        .WithMany("Comments")
-                        .HasForeignKey("EventId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-
-                    b.Navigation("Event");
-                });
-
             modelBuilder.Entity("Codemy.Models.Course", b =>
                 {
                     b.HasOne("Codemy.Models.Instructor", "Instructor")
@@ -596,6 +540,17 @@ namespace Codemy.Migrations
                         .IsRequired();
 
                     b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("Codemy.Models.Event", b =>
+                {
+                    b.HasOne("Codemy.Models.AppUser", "AppUser")
+                        .WithMany("Events")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("Codemy.Models.InstructorContacts", b =>
@@ -673,7 +628,7 @@ namespace Codemy.Migrations
 
             modelBuilder.Entity("Codemy.Models.AppUser", b =>
                 {
-                    b.Navigation("Comments");
+                    b.Navigation("Events");
 
                     b.Navigation("ShortLessons");
                 });
@@ -681,11 +636,6 @@ namespace Codemy.Migrations
             modelBuilder.Entity("Codemy.Models.Course", b =>
                 {
                     b.Navigation("CourseDetails");
-                });
-
-            modelBuilder.Entity("Codemy.Models.Event", b =>
-                {
-                    b.Navigation("Comments");
                 });
 
             modelBuilder.Entity("Codemy.Models.Instructor", b =>

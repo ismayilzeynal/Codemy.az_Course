@@ -1,0 +1,102 @@
+﻿@model EventDetailVM
+@{
+    ViewData["Title"] = "Detail";
+}
+
+
+<main>
+    @await Component.InvokeAsync("Header")
+
+    <section id="event-sec">
+        <div class="container-2">
+            <div class="event-main">
+                <img src="~/img/cards/@Model.Event.ImageUrl" alt="event image">
+                <div class="event-title">
+                    <h5>@Model.Event.Title</h5>
+                    <h6 class="writer-name">
+                        By @Model.Event.Author &nbsp/&nbsp @(Model.Event.CreateDate != null ? Model.Event.CreateDate.Value.ToString("MMMM d, yyyy") : "N/A") &nbsp/&nbsp <i class="fa-regular fa-comments"> </i>
+                        @Model.Event.Comments.Count()
+                    </h6>
+                </div>
+
+                <div class="event-desc">
+                    <p>
+                        @Model.Event.Desc
+                    </p>
+                    @if (Model.Event.RegisterUrl != null)
+                    {
+                        <a href="@Model.Event.RegisterUrl" class="btn btn-primary">Qoşul</a>
+                    }
+
+                </div>
+            </div>
+
+            <div id="comments">
+                <h6>Şərhlər</h6>
+                <div class="comments-list">
+                    @foreach (var item in Model.Event.Comments)
+                    {
+                        <div class="comment-item">
+                            <img src="~/img/profil-photo/@item.AppUser.ImageUrl width="30px" alt="profil photo">
+                            <div class="commenter-info">
+                                <p class="name-and-time">
+                                    @item.AppUser.UserName&nbsp <span> 11:36&nbsp 23/07/2023 </span>
+                                </p>
+                                <p class="user-comment">
+                                   @item.Message
+                                </p>
+                            </div>
+                            <a href="#" class="delete-comment">Delete</a>
+                        </div>
+                    }
+                </div>
+
+
+                <div class="post-comment">
+                    <h6>Şərh yaz</h6>
+                    <form method="post">
+                        <textarea name="commentMessage" id="message" rows="6"
+                                  placeholder="Write a Comment"></textarea>
+                        <input type="submit" class="btn btn-success" value="Göndər">
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+        <aside class="suggestions">
+            <h3>Tədbirlər</h3>
+
+            @foreach (var item in Model.OfferedEventsList)
+            {
+                <div class="suggestion suggestion-event">
+                    <a asp-controller="event" asp-action="detail" asp-route-id="@item.Id">
+                        <img src="~/img/cards/@item.ImageUrl" alt="course">
+                    </a>
+                    <div class="suggestion-description">
+                        <h5>@item.Title</h5>
+                        <a asp-controller="event" asp-action="detail" asp-route-id="@item.Id" class="more-btn">More</a>
+                    </div>
+                </div>
+            }
+
+            <a asp-controller="event" asp-action="index" class="suggestion-link-to-all">Bütün Tədbirlər</a>
+        </aside>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+

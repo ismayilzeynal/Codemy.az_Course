@@ -37,7 +37,7 @@ namespace Codemy.Controllers
 
         public IActionResult Detail(int id)
         {
-            return View();
+            return RedirectToAction("Index", "Home");
         }
 
 

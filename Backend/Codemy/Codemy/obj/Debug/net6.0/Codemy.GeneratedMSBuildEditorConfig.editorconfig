@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\asus\OneDrive\Desktop\Full Stack\Project\Backend\Codemy\Codemy
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/asus/OneDrive/Desktop/Full Stack/Project/Backend/Codemy/Codemy/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/OneDrive/Desktop/Full Stack/Project/Backend/Codemy/Codemy/Views/Event/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/OneDrive/Desktop/Full Stack/Project/Backend/Codemy/Codemy/Views/Event/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/asus/OneDrive/Desktop/Full Stack/Project/Backend/Codemy/Codemy/Views/Game/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

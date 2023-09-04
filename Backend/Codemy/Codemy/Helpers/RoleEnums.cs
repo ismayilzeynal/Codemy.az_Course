@@ -4,6 +4,7 @@
     {
         SuperAdmin,
         Admin,
+        Instructor,
         User
     }
 }

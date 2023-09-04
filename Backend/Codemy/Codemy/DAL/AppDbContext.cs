@@ -20,6 +20,8 @@ namespace Codemy.DAL
         public DbSet<InstructorContacts> InstructorContacts { get; set; }
 
         public DbSet<ShortLesson> ShortLessons { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
 
 
